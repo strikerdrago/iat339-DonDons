@@ -35,7 +35,7 @@ a.button {
   display: inline-block;
   padding: 0.5em 0.75em;
   color: #E0D1B2;
-  background-color: #5C3D00;
+  background-color: rgb(76,118,163);
   border-radius: 0.25em;
   text-decoration: none;
   -webkit-transition: background-color 0.2s ease-out;
@@ -43,11 +43,11 @@ a.button {
 }
 
 a.button:focus, a.button:hover {
-  background-color: #FFCCFF;
+  background-color: rgb(121,214,214);
   color: #5C3D00;
 }
 a.button:active {
-  background-color: #CC66FF;
+  background-color: rgb(121,214,214);
 }
 
 
@@ -80,7 +80,7 @@ input.form-submit {
   display: inline-block;
   padding: 0.5em 0.75em;
   color: #E0D1B2;
-  background-color: #5C3D00;
+  background-color: rgb(76,118,163);
   border-radius: 0.25em;
   text-decoration: none;
   -webkit-transition: background-color 0.2s ease-out;
@@ -88,11 +88,11 @@ input.form-submit {
     /*background-color: #FFFFFF;*/
 }
 input.form-submit:focus, input.form-submit:hover { 
-    background-color: #FFCCFF;
+    background-color: rgb(121,214,214);
   color: #5C3D00;
 }
 input.form-submit:active{ 
-    background-color: #CC66FF;
+    background-color: rgb(121,214,214);
 }
 
 /*TEXTUAL*/
@@ -160,7 +160,7 @@ nav a.navigation {
   font-family: 'Arvo', serif;
   display: inline-block;
   color: white;
-  background-color: #5C3D00;
+  background-color: rgb(76,118,163);
   font-size: 1.25rem;
   text-decoration: none;
 
@@ -177,7 +177,7 @@ nav a.navigation:first-of-type {
 }
 
 nav a.navigation:active, nav a.navigation:hover {
-  background-color: #FFCCFF;
+  background-color: rgb(121,214,214);
   color: #5C3D00;
 }
 
@@ -190,7 +190,7 @@ nav a.navigation:active, nav a.navigation:hover {
   text-align: center;
   padding-top: 10px;
 }
-
+/*
 .colorpalette.green{
   background-color: rgb(29,150,85);
 }
@@ -224,8 +224,27 @@ nav a.navigation:active, nav a.navigation:hover {
 }
 
 .colorpalette.blue{
-  background-color: rgb(52,115,178);
+  background-color: rgb(76,118,163);
 }
+
+*/
+.colorpalette.blue{
+  background-color: rgb(76,118,163);
+}
+.colorpalette.darkblue{
+  background-color: rgb(18,63,112);
+}
+.colorpalette.lightblue{
+  background-color: rgb(121,214,214);
+}
+.colorpalette.lightorange{
+  background-color: rgb(219, 111, 80);
+}
+.colorpalette.lightred{
+  background-color: rgb(163,50,41);
+}
+
+
 
 #quicklinks{
   background-color: rgb(220,220,220);
