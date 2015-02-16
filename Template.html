@@ -1,0 +1,186 @@
+<!--BY: Zen Henri T. dela Cruz 301122155
+AND Glenn Cheng-->
+<!--P01: Process-->
+<!--IAT 339 Webdesign-->
+<!--Instructor: Andrew Hawryshkewich-->
+<!--TA: Justin Ma-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Style Guide</title>
+    <link href="css/main.css" rel="stylesheet">
+
+    <!--Call Google font-->
+    <link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+
+
+  </head>
+  <body>
+    <h1>Style Guide Template</h1>
+    <p>A template you can use to start building out your own style guides with.</p>
+    <nav>
+      Go to:
+      <a href="#buttons">Buttons</a>
+      <a href="#form">Form</a>
+      <a href="#textual">Textual</a>
+      <a href="#image">Image</a>
+      <a href="#keygroup">Key Groupings</a>
+    </nav>
+    <!-- Try to ensure that each element has its own portion of the page -->
+
+    <!--BUTTON element-->
+
+    <section id="buttons">
+      <h2>Default Button Style</h2>
+      <h3>CSS selector:</h3>
+      <p>'a.button'</p>
+      <h3>Sample code:</h3>
+      <code>&lt;a href="#" class="button"&gt;DEFAULT BUTTON&lt;/a&gt;</code>
+      <h3>Rendered element:</h3>
+      <a class="button" href="#">DEFAULT BUTTON</a>
+      <a class="button" href="#">DEFAULT BUTTON</a>
+    </section>
+
+    <!-- FORM element-->
+
+    <section id="form">
+      <h2>Default Form Style</h2>
+      <h3>CSS selector:</h3>
+      <p>'label.form'</p>
+      <p>'input.form'</p>
+      <p>'textarea.form'</p>
+      <p>'input.form-submit'</p>
+
+      <h3>Sample code:</h3>
+    
+      <code>&lt;div class="input-wrapper"&gt;&lt;label class="form" for="form-name"&gt;Default Form:&lt;/label&gt;&lt;input class="form" type="text" id="form-name" placeholder="Default Form"&gt;&lt;/div&gt;
+
+        &lt;div class="input-wrapper"&gt;&lt;textarea class="form" id="form-comment" placeholder="Default Form"&gt;Default Form&lt;/textarea&gt;&lt;/div&gt;&lt;input class="form-submit" type="submit" value="DEFAULT FORM"&gt;
+      </code>
+
+      <h3>Rendered element:</h3>
+
+        <form method="post" class="form" action="#">
+        
+        
+          <div class="input-wrapper">
+            <label class="form" for="form-name">Default Form:</label>
+            <input class="form" type="text" id="form-name" placeholder="Default Form">
+          </div>
+
+          <div class="input-wrapper">
+            <textarea class="form" id="form-comment" placeholder="Default Form"></textarea>
+       </div>
+
+        <input class="form-submit" type="submit" value="DEFAULT FORM">
+
+
+      </form>
+    </section>
+
+    <!-- TEXTUAL element-->
+
+    <section id="textual">
+      <h2>Default Textual Style</h2>
+      <h3>CSS selector:</h3>
+      <p>'h3.title'</p>
+      <p>'p.textual'</p>
+      <p>'a.important'</p>
+      <h3>Sample code:</h3>
+        <code>&lt;h2 class="title"&gt;Default Textual&lt;/h2&gt;&lt;p class="textual"&gt;Default Textual, Etiam sit amet sem vehicula, efficitur eros faucibus, dignissim odio. &lt;a class="important" href="#"&gt;Duis diam sem, malesuada&lt;/a&gt; non augue quis, viverra lacinia turpis. Morbi in vehicula eros, quis vestibulum libero.&lt;/p&gt;</code>
+
+      <h3>Rendered element:</h3>
+
+        <h2 class="title">Default Textual</h2>
+
+        <p class="textual">Default Textual, Etiam sit amet sem vehicula, efficitur eros faucibus, dignissim odio. <a class="important" href="#">Duis diam sem, malesuada</a> non augue quis, viverra lacinia turpis. Morbi in vehicula eros, quis vestibulum libero.</p>
+
+    </section>
+
+    <!-- IMAGE element-->
+
+    <section id="image">
+      <h2>Default Image Style</h2>
+      <h3>CSS selector:</h3>
+      <p>'img.big'</p>
+      <p>'img.image'</p>
+      <p>'figure.gallery'</p>
+      <p>'figcaption'</p>
+      <h3>Sample code:</h3>
+        <code>&lt;figure class="intro"&gt;&lt;img class="big" src="img/demoBigImage.jpg" alt="Ice Cream Cup"&gt;&lt;/figure&gt;&lt;figure class="gallery"&gt;&lt;img class="image" src="img/icecream.jpg" alt="Ice Cream Cup"&gt;&lt;figcaption&gt;Chocolate Ube&lt;/figcaption&gt;&lt;/figure&gt;</code>
+
+        
+
+      <h3>Rendered element:</h3>
+    
+      <figure class="intro">
+      <img class="big" src="img/demoBigImage.jpg" alt="Ice Cream Cup">
+      </figure>
+
+      <figure class="gallery">
+        <img class="image" src="img/icecream.jpg" alt="Ice Cream Cup">
+        <figcaption>Chocolate Ube</figcaption>
+      </figure>
+
+      <figure class="gallery">
+        <img class="image" src="img/icecream.jpg" alt="Ice Cream Cup">
+        <figcaption>Ube Macapuno</figcaption>
+      </figure>
+
+      <figure class="gallery">
+        <img class="image" src="img/icecream.jpg" alt="Ice Cream Cup">
+        <figcaption>Rocky Road</figcaption>
+      </figure>
+
+    </section>
+
+    <!-- KEY GROUPINGS element-->
+
+    <section id="keygroup">
+      <h2>Default Key Grouping Style</h2>
+      <h3>CSS selector:</h3>
+      <p>'a.navigation'</p>
+      <h3>Sample code:</h3>
+        <code>&lt;a class="navigation" href="#"&gt;Home&lt;/a&gt;</code>
+
+      <h3>Rendered element:</h3>
+
+        <nav>
+          <a class="navigation" href="#">Home</a>
+          <a class="navigation" href="#">Flavour</a>
+          <a class="navigation" href="#">Menu</a>
+          <a class="navigation" href="#">Order</a>
+          <a class="navigation" href="#">Contact</a>
+
+        </nav>
+
+
+    </section>
+
+        <section id="colours">
+      <h2>Colours</h2>
+
+      <p>
+        The colour palette is orange, light green, and greys.
+      </p>
+
+      <div class="colorpalette lightbrown">rgb(178,100,95)</div>
+      <div class="colorpalette lightyellow">rgb(242,255,138)</div>
+      <div class="colorpalette lightred">rgb(255,98,87)</div>
+      <div class="colorpalette lightblue">rgb(153,178,204)</div>
+      <div class="colorpalette blue">rgb(52,115,178)</div>
+
+      <p>
+        Background gray is rgb(244,244,244).
+      </p>
+
+    </section>
+
+  </body>
+</html>
