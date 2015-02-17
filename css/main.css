@@ -8,7 +8,7 @@ TA: Justin Ma
 */
 
 body {
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
   padding: 2rem;
 }
 
@@ -53,14 +53,25 @@ a.button:active {
 
 /*FORM*/
 
+form {
+  display: inline-block;
+  background-color: rgb(220, 220, 220);
+  padding: 1em;
+}
+
 label.form { 
     font-family: 'Arvo', serif;
     font-weight: 700;
-    color: #5C3D00;
+    color: rgb(76,118,163);
+    font-size: .9em;
+    display: block;
+
 }
 
 input.form { 
+    font-family: 'Open Sans';
     background-color: #FFFFCC;
+    padding: .5em;
 }
 
 input.form:focus, input.form:hover { 
@@ -68,7 +79,11 @@ input.form:focus, input.form:hover {
 }
 
 textarea.form{
+  font-family: 'Open Sans';
     background-color: #FFFFCC;
+    width: 30em;
+    height: 10em;
+    padding: .5em;
 }
 
 textarea.form:focus, textarea.form:hover{
@@ -98,7 +113,7 @@ input.form-submit:active{
 /*TEXTUAL*/
 
 h2.title {
-  font-family: 'Lobster', cursive;
+  font-family: 'Arvo', cursive;
   color: #3333CC;
 }
 
