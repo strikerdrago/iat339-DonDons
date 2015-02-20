@@ -196,6 +196,10 @@ nav a.navigation:active, nav a.navigation:hover {
   color: #5C3D00;
 }
 
+nav a {
+  width: 90%;
+}
+
 /*GLENN's CODE*/
 
 .colorpalette {

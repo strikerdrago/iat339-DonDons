@@ -1,6 +1,6 @@
 <!--BY: Zen Henri T. dela Cruz 301122155
 AND Glenn Cheng-->
-<!--P01: Process-->
+<!--P02: Process-->
 <!--IAT 339 Webdesign-->
 <!--Instructor: Andrew Hawryshkewich-->
 <!--TA: Justin Ma-->
@@ -9,18 +9,27 @@ AND Glenn Cheng-->
 <html>
   <head>
     <meta charset="utf-8">
+
+    <!--
+      width=device-width -  sets the width of the site to the width
+                            of the device
+      initial-scale=1.0 -   sets our initial zoom level
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Style Guide</title>
+
     <link href="css/main.css" rel="stylesheet">
+    <!--grid structure linked-->
+    <link href="css/grid.css" rel="stylesheet">
 
-    <!--Call Google font-->
+    <!--Call Google Fonts-->
     <link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
-
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
-
     <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
-
-
   </head>
+
+
   <body>
     <h1>Style Guide Template</h1>
     <p>A template you can use to start building out your own style guides with.</p>
@@ -151,13 +160,32 @@ AND Glenn Cheng-->
 
       <h3>Rendered element:</h3>
 
-        <nav>
-          <a class="navigation" href="#">Home</a>
-          <a class="navigation" href="#">Flavour</a>
-          <a class="navigation" href="#">Menu</a>
-          <a class="navigation" href="#">Order</a>
-          <a class="navigation" href="#">Contact</a>
 
+      <!-- 
+        added the class 'grid' to our nav tag
+        to allow it to act as a grid of it's own
+      -->
+        <nav class="grid">
+
+          <!-- 
+          Here we are actually using our 10-column grid to 
+          position navigation across the top accordingly
+          -->  
+          <div class="col-2of10">
+            <a class="navigation" href="#">Home</a>
+          </div>
+          <div class="col-2of10">
+            <a class="navigation" href="#">Flavour</a>
+          </div>
+          <div class="col-2of10">
+            <a class="navigation" href="#">Menu</a>
+          </div>
+          <div class="col-2of10">
+            <a class="navigation" href="#">Order</a>
+          </div>
+          <div class="col-2of10">
+            <a class="navigation" href="#">Contact</a>
+          </div>
         </nav>
 
 
