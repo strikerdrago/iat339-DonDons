@@ -61,7 +61,7 @@ form {
 
 label.form { 
     font-family: 'Arvo', serif;
-    font-weight: 700;
+    font-weight: 400;
     color: rgb(76,118,163);
     font-size: .9em;
     display: block;
@@ -71,7 +71,7 @@ label.form {
 input.form { 
     font-family: 'Open Sans';
     background-color: #FFFFCC;
-    padding: .5em;
+    padding: .4em;
 }
 
 input.form:focus, input.form:hover { 
