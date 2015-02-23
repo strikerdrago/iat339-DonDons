@@ -55,21 +55,21 @@ AND Glen Cheng-->
           Here we are actually using our 10-column grid to 
           position navigation across the top accordingly
           -->  
-          <div class="col-2of10 navitem">
+          <div class="col-2 navitem">
             <a class="navigation" href="index.html">Home</a>
           </div>
-          <div class="col-2of10 navitem">
+          <div class="col-2 navitem">
             <a class="navigation" href="products.html">Products</a>
           </div>
           <!--temporary removed
-          <div class="col-2of10 navitem">
+          <div class="col-2 navitem">
             <a class="navigation" href="#"></a>
           </div>
            -->
-          <div class="col-2of10 navitem">
+          <div class="col-2 navitem">
             <a class="navigation" href="order.html">Order</a>
           </div>
-          <div class="col-2of10 navitem">
+          <div class="col-2 navitem">
             <a class="navigation" href="contact.html">Contact</a>
           </div>
         </nav>
@@ -80,15 +80,13 @@ AND Glen Cheng-->
         This is the first column
     -->    
 <div class="grid">
-    <div class="col-5of10">
-    <div class="col-5of10">
+    <div class="col-6">
             <h3 class="sideTitle">Title</h3>
 
             <p>Cras in mi at felis aliquet congue.Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien</p>
     </div>
-   </div>
 
-   <div class="col-5of10">
+   <div class="col-6">
             <figure>
             <img width="550" height="300" alt="Google Map" src="">
             <figcaption></figcaption>
@@ -98,55 +96,55 @@ AND Glen Cheng-->
 
 
 <div class="grid"> <!-- Starting a different grid -->
-    
-    <h2 class="title">Title</h2>
+    <div class="col-12">
+      <h2 class="title">Title</h2>
 
-        <form method="post" class="form" action="#">
-        
-        <!--temporary removed
-          <div class="input-wrapper">
-        -->
-        <div class="grid">
-            <div class="col-3of10">
-              <label class="form" for="form-name">First Name:</label>
-              <input class="form" type="text" id="form-name" placeholder="John">
-            </div>
-            <div class="col-7of10">
-              <label class="form" for="form-name">Last Name:</label>
-              <input class="form" type="text" id="form-name" placeholder="Doe">
-            </div>
+          <form method="post" class="form" action="#">
           
-          
-
-            <div class="col-7of10">
-              <label class="form" for="form-name">Email</label>
-                <input class="form" type="text" id="form-name" placeholder="johnny@something.com">
-            </div>
-
-
-            <div class="col-7of10">
-              <label class="form" for="form-name">Subject</label>
-                <input class="form" type="text" id="form-name" placeholder="Topic">
-            </div>
-
-        </div>
-        <!--
-        </div>
-        -->
-
+          <!--temporary removed
+            <div class="input-wrapper">
+          -->
           <div class="grid">
-            <div class="col-8of10">
-              <textarea class="form" id="form-comment" placeholder="Please place your comment here"></textarea>
-            </div>
+              <div class="col-3">
+                <label class="form" for="form-name">First Name:</label>
+                <input class="form" type="text" id="form-name" placeholder="John">
+              </div>
+              <div class="col-7">
+                <label class="form" for="form-name">Last Name:</label>
+                <input class="form" type="text" id="form-name" placeholder="Doe">
+              </div>
+            
+            
+
+              <div class="col-7">
+                <label class="form" for="form-name">Email</label>
+                  <input class="form" type="text" id="form-name" placeholder="johnny@something.com">
+              </div>
+
+
+              <div class="col-7">
+                <label class="form" for="form-name">Subject</label>
+                  <input class="form" type="text" id="form-name" placeholder="Topic">
+              </div>
+
           </div>
+          <!--
+          </div>
+          -->
+
+            <div class="grid">
+              <div class="col-8">
+                <textarea class="form" id="form-comment" placeholder="Please place your comment here"></textarea>
+              </div>
+            </div>
 
 
 
-        <input class="form-submit" type="submit" value="Submit">
-</div>
+          <input class="form-submit" type="submit" value="Submit">
+    </div>
 
-      </form>
-
+        </form>
+  </div>
 </div>
 
 

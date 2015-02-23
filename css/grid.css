@@ -23,7 +23,7 @@
 */
 [class^='col-'] {
 	float: left;
-	padding: 12px 1.5em; 
+	padding: 1px 1.5em; 
 	width: 8.33%; /*default width of 1 column*/ 
 }
 
@@ -48,7 +48,6 @@ h3.sideTitle {
 
 
 /* new fancy 12 columns*/
-
 .col-1 { 
 	/*100 divided by 12*/
 	width: 8.33%; 
@@ -66,32 +65,9 @@ h3.sideTitle {
 .col-12 { width: 100%; }
 
 
-/*cld columns*/
-.col-8of10 {
-	width: 80%;
-}
-
-
-.col-2of10 {
-	width: 20%;
-}
-
-.col-2of10 >figure >img{
+.thumbnail >figure >img{
 	height:auto;
 	width: 100%;
-}
-
-
-.col-3of10 {
-	width: 30%;
-}
-
-.col-5of10 {
-	width: 50%;
-}
-
-.col-7of10 {
-  	width: 70%;
 }
 
 
@@ -99,7 +75,7 @@ h3.sideTitle {
 	nav specific 25% layouter
 	[TODO] Change to 3of12 when finished editing grid layout
 */
-nav .col-2of10 {
+nav .col-2 {
 	width: 25%;
 }
 
@@ -123,7 +99,7 @@ img.mainEvent {
 
 @media (max-width: 70em) {
 
-	.col-2of10.thumbnail{
+	.thumbnail{
 		height: auto;
 		width: 33%;
 	}
@@ -131,7 +107,7 @@ img.mainEvent {
 
 @media (max-width: 55em) {
 
-	.col-2of10.thumbnail{
+	.thumbnail{
 		height: auto;
 		width: 50%;
 	}
@@ -139,28 +115,28 @@ img.mainEvent {
 
 @media (max-width: 40em) {
 
-	.col-8of10 {
+	.col-8 {
     width: 100%;
 	}
 
-  	.col-5of10 {
+  	.col-5 {
 		width: 100%;
 	}
 
-	.col-3of10 {
+	.col-3 {
     	width: 100%;
   	}
 
-	.col-2of10 {
+	.col-2 {
 		width: 100%;
 	}
 
-	.col-2of10.thumbnail{
+	.thumbnail{
 		height: auto;
 		width: 100%;
 	}
 
-	nav .col-2of10 {
+	nav .col-2 {
 		width: 100%;
 	}
 
@@ -168,11 +144,11 @@ img.mainEvent {
 	width: 100%;
 	}
 
-	.col-imgof10  {
+	.col-img  {
     width: 50%;
   	}
 
-  	.col-7of10 {
+  	.col-7 {
     width: 100%;
 	}
 
@@ -180,14 +156,14 @@ img.mainEvent {
     width: 100%;
  	}
 	
-	.col-2of10.navitem{
+	.col-2.navitem{
 		padding: 0 12px;
 	}
 }
 
 @media (max-width: 25em) {
 
-  .col-imgof10  {
+  .col-img  {
     width: 100%;
   }
 	
