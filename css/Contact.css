@@ -24,7 +24,7 @@
 /*
   Here we are defining our 50% wide column (for a 10 col grid)
 */
-.col-R5of10 {
+.colR-5of10 {
   width: 50%;
 }
 
@@ -33,15 +33,15 @@
   has a width less than 50em it should collapse the 5/10 columns 
   into one stack (hence width: 100%)
 */
-@media (max-width: 30em) {
+@media (max-width: 50em) {
 
-  .col-R5of10 {
+  .colR-5of10 {
     width: 100%;
   }
 
 }
 
-.col-R7of10 {
+.colR-7of10 {
   width: 50%;
 }
 
@@ -73,6 +73,11 @@ textarea {
     width: 100%;
   }
 
+}
+
+h3.sideTitle {
+  font-family: 'Arvo', cursive;
+  color: #3333CC;
 }
 
 /*

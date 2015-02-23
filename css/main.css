@@ -56,7 +56,7 @@ a.button:active {
 form {
   display: block;
   background-color: rgb(220, 220, 220);
-  padding: 1em;
+  padding: 1em 1em;
 }
 
 label.form { 
@@ -83,7 +83,7 @@ textarea.form{
     background-color: #FFFFCC;
     /*width: 30em; */
     height: 10em;
-    padding: .5em;
+    padding: 1em;
 }
 
 textarea.form:focus, textarea.form:hover{

@@ -27,6 +27,13 @@
 	text-align: center; /* center the content in this block */
 }
 
+/*version with things align to the right*/
+[class^='colR-'] {
+  float: left;
+  padding: 0; 
+  text-align: left; /* center the content in this block */
+}
+
 
 /*
 	Here we are defining our 50% wide column (for a 10 col grid)

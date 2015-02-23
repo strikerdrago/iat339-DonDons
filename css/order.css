@@ -27,7 +27,61 @@
   text-align: center; /* center the content in this block */
 }
 
+.colR-5of10 {
+  width: 50%;
+}
 
+/*
+  Here using @media queries, we are specifying when the display
+  has a width less than 50em it should collapse the 5/10 columns 
+  into one stack (hence width: 100%)
+*/
+@media (max-width: 50em) {
+
+  .colR-5of10 {
+    width: 100%;
+  }
+
+}
+
+.colR-7of10 {
+  width: 50%;
+}
+
+/*
+  Here using @media queries, we are specifying when the display
+  has a width less than 50em it should collapse the 5/10 columns 
+  into one stack (hence width: 100%)
+*/
+@media (max-width: 30em) {
+
+  .col-R7of10 {
+    width: 100%;
+  }
+
+}
+
+
+textarea {
+  width: 80%;
+}
+
+/*
+  Using further @media queries, we specify that at a width of
+  less than 350em it should collapse the 2/10 columns into one stack
+*/
+@media (max-width: 50em) {
+
+  textarea {
+    width: 100%;
+  }
+
+}
+
+h3.sideTitle {
+  font-family: 'Arvo', cursive;
+  color: #3333CC;
+}
 /*
   Here we are defining our 50% wide column (for a 10 col grid)
 

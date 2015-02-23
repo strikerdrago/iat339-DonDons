@@ -25,7 +25,7 @@ AND Glenn Cheng-->
     <!--grid structure linked-->
     <link href="css/grid.css" rel="stylesheet">
 
-    <link href="css/product.css" rel="stylesheet">
+    <link href="css/order.css" rel="stylesheet">
 
     <!--Call Google Fonts-->
     <link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
@@ -41,7 +41,7 @@ AND Glenn Cheng-->
   <div class="grid">
           <figure>
             <img width="300" height="300" alt="Logo" src="">
-            <figcaption>Logo</figcaption>
+            <figcaption></figcaption>
           </figure>
   </div>
  
@@ -84,70 +84,79 @@ AND Glenn Cheng-->
     -->    
 <div class="grid"> <!-- Starting a different grid -->
     
-    <h2>Title</h2>
+    <h2 class="title">Title</h2>
 
         <form method="post" class="form" action="#">
         
-        
+        <!--temporary removed
           <div class="input-wrapper">
-            <div class="col-5of10">
+        -->
+          <div class="grid">
+            <div class="colR-5of10">
               <label class="form" for="form-name">First Name:</label>
               <input class="form" type="text" id="form-name" placeholder="John">
             </div>
-            <div class="col-5of10">
+            <div class="colR-5of10">
               <label class="form" for="form-name">Last Name:</label>
               <input class="form" type="text" id="form-name" placeholder="Doe">
             </div>
           </div>
-
-          <div class="input-wrapper">
-          <div  class="col-7of10">
+          
+        <div class="grid">
+          <div class="colR-7of10">
             <label class="form" for="form-name">Address</label>
               <input class="form" type="text" id="form-name" placeholder="Mary Street">
           </div>
-
-          <div class="col-7of10">
+        </div>
+        <div class="grid">
+          <div class="colR-7of10">
             <label class="form" for="form-name">Phone</label>
               <input class="form" type="text" id="form-name" placeholder="xxx-xxx-xxxx">
-          </div>
-          
-
-          <div class="col-7of10">
-            <label class="form" for="form-name">Email</label>
-              <input class="form" type="text" id="form-name" placeholder="johnny@something.com">
-          </div>
         </div>
-        <div class="col-imgOrderof10">
+
+        </div>
+        <div class="grid">
+          <div class="colR-7of10">
+            <label class="form" for="form-name">Email</label>
+              <input class="form" type="text" id="form-name" placeholder="Johnny@somewhere.com">
+        </div>
+
+        </div>
+        <div class="grid">
+            <div class="col-imgOrderof10">
           <figure>
-            <img width="150" height="100" alt="Side Event" src="">
+            <img width="150" height="100" alt="Payment1" src="">
             <figcaption></figcaption>
           </figure>
 
           </div>
         <div class="col-imgOrderof10">
           <figure>
-            <img width="150" height="100" alt="Side Event" src="">
+            <img width="150" height="100" alt="Payment2" src="">
             <figcaption></figcaption>
           </figure>
 
           </div>
           <div class="col-imgOrderof10">
           <figure>
-            <img width="150" height="100" alt="Side Event" src="">
+            <img width="150" height="100" alt="Payment3" src="">
             <figcaption></figcaption>
           </figure>
 
           </div>
-<!--
+        </div>
+        <!--
+        </div>
+        -->
 
-          <div class="input-wrapper">
+          <div class="grid">
             <textarea class="form" id="form-comment" placeholder="Please place your comment here"></textarea>
-       </div>
--->
+          </div>
 
 
-        <input class="form-submit" type="submit" value="Submit">
 
+        <input class="form-submit" type="submit" value="Process Order">
+</div>
 
       </form>
 
