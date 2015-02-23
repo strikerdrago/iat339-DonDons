@@ -23,7 +23,7 @@
 */
 [class^='col-'] {
 	float: left;
-	padding: 0; 
+	padding: 12px; 
 	/*text-align: center;  center the content in this block */
 }
 
@@ -122,6 +122,8 @@ img.mainEvent {
 		width: 100%;
 	}
 
+
+
 	img.mainEvent {
 	width: 100%;
 	}
@@ -153,12 +155,18 @@ img.mainEvent {
     width: 20%;
   }
 }
+@media (max-width: 40em) {
+	nav .col-2of10 {
+		width: 100%;
+	}
+}
 
 @media (max-width: 25em) {
 
   .col-imgof10  {
     width: 100%;
   }
+	
 
 }
 
