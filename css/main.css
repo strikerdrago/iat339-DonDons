@@ -81,7 +81,7 @@ input.form:focus, input.form:hover {
 textarea.form{
   font-family: 'Open Sans';
     background-color: #FFFFCC;
-    /*width: 30em; */
+    width: 80%; 
     height: 10em;
     padding: 1em;
 }
@@ -159,14 +159,20 @@ figure.gallery {
   margin: 2em 2em 2em 2em; 
 }
 
+figure{
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
 figcaption {
   position: absolute;
   float: right;
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   bottom: .25em;
-  right: .50em;
-  color: white;
+  left: .50em;
+  color: black;
 }
 
 img.big {

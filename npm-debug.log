@@ -1,0 +1,190 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'http-server',
+1 verbose cli   '-g' ]
+2 info using npm@2.2.0
+3 info using node@v0.10.32
+4 silly cache add args [ 'http-server', null ]
+5 verbose cache add spec http-server
+6 silly cache add parsed spec { raw: 'http-server',
+6 silly cache add   scope: null,
+6 silly cache add   name: 'http-server',
+6 silly cache add   rawSpec: '',
+6 silly cache add   spec: '*',
+6 silly cache add   type: 'range' }
+7 verbose addNamed http-server@*
+8 silly addNamed semver.valid null
+9 silly addNamed semver.validRange *
+10 silly addNameRange { name: 'http-server', range: '*', hasData: false }
+11 silly mapToRegistry name http-server
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry uri https://registry.npmjs.org/http-server
+15 verbose addNameRange registry:https://registry.npmjs.org/http-server not in flight; fetching
+16 verbose request uri https://registry.npmjs.org/http-server
+17 verbose request no auth needed
+18 info attempt registry request try #1 at 00:51:43
+19 verbose request id f7aa60f2a0c2214b
+20 http request GET https://registry.npmjs.org/http-server
+21 http 200 https://registry.npmjs.org/http-server
+22 silly get cb [ 200,
+22 silly get   { date: 'Mon, 23 Feb 2015 08:51:43 GMT',
+22 silly get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+22 silly get     etag: '"F3M1I0OTYNFEOLNESO2Y0KCM8"',
+22 silly get     'content-type': 'application/json',
+22 silly get     'cache-control': 'max-age=60',
+22 silly get     'content-length': '40212',
+22 silly get     'accept-ranges': 'bytes',
+22 silly get     via: '1.1 varnish',
+22 silly get     age: '0',
+22 silly get     'x-served-by': 'cache-lax1420-LAX',
+22 silly get     'x-cache': 'HIT',
+22 silly get     'x-cache-hits': '1',
+22 silly get     'x-timer': 'S1424681502.825652,VS0,VE216',
+22 silly get     vary: 'Accept',
+22 silly get     'keep-alive': 'timeout=10, max=50',
+22 silly get     connection: 'Keep-Alive' } ]
+23 silly addNameRange number 2 { name: 'http-server', range: '*', hasData: true }
+24 silly addNameRange versions [ 'http-server',
+24 silly addNameRange   [ '0.1.0',
+24 silly addNameRange     '0.1.1',
+24 silly addNameRange     '0.1.3',
+24 silly addNameRange     '0.2.1',
+24 silly addNameRange     '0.2.2',
+24 silly addNameRange     '0.2.3',
+24 silly addNameRange     '0.2.4',
+24 silly addNameRange     '0.2.5',
+24 silly addNameRange     '0.2.6',
+24 silly addNameRange     '0.2.9',
+24 silly addNameRange     '0.3.0',
+24 silly addNameRange     '0.4.0',
+24 silly addNameRange     '0.4.1',
+24 silly addNameRange     '0.5.0',
+24 silly addNameRange     '0.5.1',
+24 silly addNameRange     '0.5.2',
+24 silly addNameRange     '0.5.3',
+24 silly addNameRange     '0.5.5',
+24 silly addNameRange     '0.6.0',
+24 silly addNameRange     '0.6.1',
+24 silly addNameRange     '0.7.0',
+24 silly addNameRange     '0.7.1',
+24 silly addNameRange     '0.7.2',
+24 silly addNameRange     '0.7.3',
+24 silly addNameRange     '0.7.4' ] ]
+25 verbose addNamed http-server@0.7.4
+26 silly addNamed semver.valid 0.7.4
+27 silly addNamed semver.validRange 0.7.4
+28 silly mapToRegistry name http-server
+29 silly mapToRegistry using default registry
+30 silly mapToRegistry registry https://registry.npmjs.org/
+31 silly mapToRegistry uri https://registry.npmjs.org/http-server
+32 verbose addRemoteTarball https://registry.npmjs.org/http-server/-/http-server-0.7.4.tgz not in flight; adding
+33 verbose addRemoteTarball [ 'https://registry.npmjs.org/http-server/-/http-server-0.7.4.tgz',
+33 verbose addRemoteTarball   '6c23ea345d7db567a91f772924d2de6226b3f4cd' ]
+34 info retry fetch attempt 1 at 00:51:43
+35 info attempt registry request try #1 at 00:51:43
+36 http fetch GET https://registry.npmjs.org/http-server/-/http-server-0.7.4.tgz
+37 http fetch 200 https://registry.npmjs.org/http-server/-/http-server-0.7.4.tgz
+38 silly fetchAndShaCheck shasum 6c23ea345d7db567a91f772924d2de6226b3f4cd
+39 verbose addTmpTarball C:\Users\Glen\AppData\Local\Temp\npm-9780-45966660\registry.npmjs.org\http-server\-\http-server-0.7.4.tgz not in flight; adding
+40 verbose addTmpTarball already have metadata; skipping unpack for http-server@0.7.4
+41 silly cache afterAdd http-server@0.7.4
+42 verbose afterAdd C:\Users\Glen\AppData\Roaming\npm-cache\http-server\0.7.4\package\package.json not in flight; writing
+43 verbose afterAdd C:\Users\Glen\AppData\Roaming\npm-cache\http-server\0.7.4\package\package.json written
+44 silly install resolved [ { name: 'http-server',
+44 silly install resolved     version: '0.7.4',
+44 silly install resolved     description: 'a simple zero-configuration command-line http server',
+44 silly install resolved     main: './lib/http-server',
+44 silly install resolved     repository:
+44 silly install resolved      { type: 'git',
+44 silly install resolved        url: 'git://github.com/nodeapps/http-server.git' },
+44 silly install resolved     keywords: [ 'cli', 'command' ],
+44 silly install resolved     scripts:
+44 silly install resolved      { start: 'node ./bin/http-server',
+44 silly install resolved        pretest: 'stylezero bin/ lib/ test',
+44 silly install resolved        test: 'vows --spec --isolate' },
+44 silly install resolved     contributors:
+44 silly install resolved      [ [Object],
+44 silly install resolved        [Object],
+44 silly install resolved        [Object],
+44 silly install resolved        [Object],
+44 silly install resolved        [Object],
+44 silly install resolved        [Object],
+44 silly install resolved        [Object],
+44 silly install resolved        [Object],
+44 silly install resolved        [Object],
+44 silly install resolved        [Object] ],
+44 silly install resolved     dependencies:
+44 silly install resolved      { colors: '1.0.3',
+44 silly install resolved        optimist: '0.6.x',
+44 silly install resolved        union: '~0.4.3',
+44 silly install resolved        ecstatic: '~0.5.6',
+44 silly install resolved        portfinder: '0.2.x',
+44 silly install resolved        opener: '~1.4.0' },
+44 silly install resolved     devDependencies: { vows: '0.7.x', request: '2.49.x', stylezero: '2.1.1' },
+44 silly install resolved     bugs: { url: 'https://github.com/nodeapps/http-server/issues' },
+44 silly install resolved     licenses: [ [Object] ],
+44 silly install resolved     analyze: false,
+44 silly install resolved     preferGlobal: 'true',
+44 silly install resolved     bin: { 'http-server': './bin/http-server', hs: './bin/http-server' },
+44 silly install resolved     gitHead: '4407db12d676a948eef7a2262490bdda4e07b3e9',
+44 silly install resolved     homepage: 'https://github.com/nodeapps/http-server',
+44 silly install resolved     _id: 'http-server@0.7.4',
+44 silly install resolved     _shasum: '6c23ea345d7db567a91f772924d2de6226b3f4cd',
+44 silly install resolved     _from: 'http-server@*',
+44 silly install resolved     _npmVersion: '2.1.9',
+44 silly install resolved     _nodeVersion: '0.10.33',
+44 silly install resolved     _npmUser: { name: 'indexzero', email: 'charlie.robbins@gmail.com' },
+44 silly install resolved     maintainers: [ [Object] ],
+44 silly install resolved     dist:
+44 silly install resolved      { shasum: '6c23ea345d7db567a91f772924d2de6226b3f4cd',
+44 silly install resolved        tarball: 'http://registry.npmjs.org/http-server/-/http-server-0.7.4.tgz' },
+44 silly install resolved     directories: {},
+44 silly install resolved     _resolved: 'https://registry.npmjs.org/http-server/-/http-server-0.7.4.tgz' } ]
+45 info install http-server@0.7.4 into c:\Program Files\nodejs
+46 info installOne http-server@0.7.4
+47 verbose installOne of http-server to c:\Program Files\nodejs not in flight; installing
+48 verbose lock using C:\Users\Glen\AppData\Roaming\npm-cache\_locks\http-server-eef8e33b1f84d5bc.lock for c:\Program Files\nodejs\node_modules\http-server
+49 silly install write writing http-server 0.7.4 to c:\Program Files\nodejs\node_modules\http-server
+50 silly cache addNamed cb http-server@0.7.4
+51 verbose unbuild node_modules\http-server
+52 verbose gentlyRm vacuuming c:\Program Files\nodejs\node_modules\http-server
+53 verbose tar unpack C:\Users\Glen\AppData\Roaming\npm-cache\http-server\0.7.4\package.tgz
+54 verbose tar unpacking to c:\Program Files\nodejs\node_modules\http-server
+55 verbose gentlyRm vacuuming c:\Program Files\nodejs\node_modules\http-server
+56 silly gunzTarPerm modes [ '777', '666' ]
+57 error tar.unpack untar error C:\Users\Glen\AppData\Roaming\npm-cache\http-server\0.7.4\package.tgz
+58 verbose unlock done using C:\Users\Glen\AppData\Roaming\npm-cache\_locks\http-server-eef8e33b1f84d5bc.lock for c:\Program Files\nodejs\node_modules\http-server
+59 verbose fstream_path c:\Program Files\nodejs\node_modules\http-server
+60 verbose fstream_type Directory
+61 verbose fstream_class DirWriter
+62 verbose stack Error: EPERM, mkdir 'c:\Program Files\nodejs\node_modules\http-server'
+63 verbose fstream_stack c:\Program Files\nodejs\node_modules\npm\node_modules\fstream\lib\dir-writer.js:36:23
+63 verbose fstream_stack c:\Program Files\nodejs\node_modules\npm\node_modules\mkdirp\index.js:46:53
+63 verbose fstream_stack Object.oncomplete (fs.js:107:15)
+64 verbose cwd c:\Users\Glen\git\iat339-DonDons
+65 error Windows_NT 6.2.9200
+66 error argv "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "http-server" "-g"
+67 error node v0.10.32
+68 error npm  v2.2.0
+69 error path c:\Program Files\nodejs\node_modules\http-server
+70 error code EPERM
+71 error errno 50
+72 error Error: EPERM, mkdir 'c:\Program Files\nodejs\node_modules\http-server'
+72 error  { [Error: EPERM, mkdir 'c:\Program Files\nodejs\node_modules\http-server']
+72 error   errno: 50,
+72 error   code: 'EPERM',
+72 error   path: 'c:\\Program Files\\nodejs\\node_modules\\http-server',
+72 error   fstream_type: 'Directory',
+72 error   fstream_path: 'c:\\Program Files\\nodejs\\node_modules\\http-server',
+72 error   fstream_class: 'DirWriter',
+72 error   fstream_stack:
+72 error    [ 'c:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\fstream\\lib\\dir-writer.js:36:23',
+72 error      'c:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\mkdirp\\index.js:46:53',
+72 error      'Object.oncomplete (fs.js:107:15)' ] }
+73 error Please try running this command again as root/Administrator.
+74 verbose exit [ 50, true ]
+75 verbose unbuild node_modules\http-server
+76 verbose gentlyRm vacuuming c:\Program Files\nodejs\node_modules\http-server
