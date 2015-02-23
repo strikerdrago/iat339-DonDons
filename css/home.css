@@ -14,11 +14,7 @@
   specifying if the class of an item starts with
   'col-', then we should apply the styling listed
 */
-[class^='col-R'] {
-  float: left;
-  padding: 0; 
-  text-align: left; /* center the content in this block */
-}
+
 
 
 /*

@@ -25,7 +25,7 @@ AND Glenn Cheng-->
     <!--grid structure linked-->
     <link href="css/grid.css" rel="stylesheet">
 
-    <link href="css/product.css" rel="stylesheet">
+    <link href="css/contact.css" rel="stylesheet">
 
     <!--Call Google Fonts-->
     <link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
@@ -83,15 +83,15 @@ AND Glenn Cheng-->
         This is the first column
     -->    
 <div class="grid">
-    <div class="col-5of10">
-    <div class="col-5of10">
+    <div class="col-R5of10">
+    <div class="col-R5of10">
             <h4>Title</h4>
 
             <p>Cras in mi at felis aliquet congue.Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien</p>
     </div>
    </div>
 
-   <div class="col-5of10">
+   <div class="col-R5of10">
             <figure>
             <img width="550" height="300" alt="Google Map" src="">
             <figcaption>MAP</figcaption>
@@ -102,43 +102,49 @@ AND Glenn Cheng-->
 
 <div class="grid"> <!-- Starting a different grid -->
     
-    <h2>Title</h2>
+    <h2 class="title">Title</h2>
 
         <form method="post" class="form" action="#">
         
-        
+        <!--temporary removed
           <div class="input-wrapper">
-            <div class="col-5of10">
+        -->
+          <div class="grid">
+            <div class="col-R5of10">
               <label class="form" for="form-name">First Name:</label>
               <input class="form" type="text" id="form-name" placeholder="John">
             </div>
-            <div class="col-5of10">
+            <div class="col-R5of10">
               <label class="form" for="form-name">Last Name:</label>
               <input class="form" type="text" id="form-name" placeholder="Doe">
             </div>
           </div>
-
-          <div class="col-7of10">
-            <label class="form" for="form-name">Email</label>
-              <input class="form" type="text" id="form-name" placeholder="xxx-xxx-xxxx">
-          </div>
           
-
-          <div class="col-7of10">
-            <label class="form" for="form-name">Subject</label>
+        <div class="grid">
+          <div class="col-R7of10">
+            <label class="form" for="form-name">Email</label>
               <input class="form" type="text" id="form-name" placeholder="johnny@something.com">
+          </div>
         </div>
+        <div class="grid">
+          <div class="col-R7of10">
+            <label class="form" for="form-name">Subject</label>
+              <input class="form" type="text" id="form-name" placeholder="Topic">
         </div>
 
+        </div>
+        <!--
+        </div>
+        -->
 
-          <div class="input-wrapper">
+          <div class="grid">
             <textarea class="form" id="form-comment" placeholder="Please place your comment here"></textarea>
-       </div>
+          </div>
 
 
 
         <input class="form-submit" type="submit" value="Submit">
-
+</div>
 
       </form>
 

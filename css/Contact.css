@@ -21,12 +21,59 @@
   specifying if the class of an item starts with
   'col-', then we should apply the styling listed
 */
-[class^='col-'] {
-  float: left;
-  padding: 0; 
-  text-align: center; /* center the content in this block */
+/*
+  Here we are defining our 50% wide column (for a 10 col grid)
+*/
+.col-R5of10 {
+  width: 50%;
 }
 
+/*
+  Here using @media queries, we are specifying when the display
+  has a width less than 50em it should collapse the 5/10 columns 
+  into one stack (hence width: 100%)
+*/
+@media (max-width: 30em) {
+
+  .col-R5of10 {
+    width: 100%;
+  }
+
+}
+
+.col-R7of10 {
+  width: 50%;
+}
+
+/*
+  Here using @media queries, we are specifying when the display
+  has a width less than 50em it should collapse the 5/10 columns 
+  into one stack (hence width: 100%)
+*/
+@media (max-width: 30em) {
+
+  .col-R7of10 {
+    width: 100%;
+  }
+
+}
+
+
+textarea {
+  width: 80%;
+}
+
+/*
+  Using further @media queries, we specify that at a width of
+  less than 350em it should collapse the 2/10 columns into one stack
+*/
+@media (max-width: 50em) {
+
+  textarea {
+    width: 100%;
+  }
+
+}
 
 /*
   Here we are defining our 50% wide column (for a 10 col grid)
@@ -75,6 +122,8 @@
   Much like last week, we are clearing the floating items so
   that our 'grid' structure can be stacked on others
 */
+
+/*
 .grid:after {
   content: "";
   display: block;
@@ -91,7 +140,7 @@ figure {
   margin: 0;
 }
 
-/* the side titles */
+/* the side titles /
 
 
 p {
@@ -112,7 +161,7 @@ h3.sideTitle {
 
 /*
   Here we are defining our 80% wide column (for a 10 col grid)
-*/
+/
 .col-8of10 {
   width: 75%;
 }
@@ -121,7 +170,7 @@ h3.sideTitle {
   Here using @media queries, we are specifying when the display
   has a width less than 50em it should collapse the 5/10 columns 
   into one stack (hence width: 100%)
-*/
+/
 @media (max-width: 50em) {
 
   .col-8of10 {
@@ -132,7 +181,7 @@ h3.sideTitle {
 
 /*
   Here we are defining our 80% wide column (for a 10 col grid)
-*/
+/
 .col-3of10 {
   width: 25%;
 }
@@ -141,7 +190,7 @@ h3.sideTitle {
   Here using @media queries, we are specifying when the display
   has a width less than 50em it should collapse the 5/10 columns 
   into one stack (hence width: 100%)
-*/
+/
 @media (max-width: 50em) {
 
   .col-3of10 {
@@ -152,7 +201,7 @@ h3.sideTitle {
 
 /*
   Here we are defining our 80% wide column (for a 10 col grid)
-*/
+/
 .col-imgof10 {
   width: 15%;
 }
@@ -161,7 +210,7 @@ h3.sideTitle {
   Here using @media queries, we are specifying when the display
   has a width less than 50em it should collapse the 5/10 columns 
   into one stack (hence width: 100%)
-*/
+/
 @media (max-width: 50em) {
 
   .col-imgof10  {
@@ -190,7 +239,7 @@ h3.sideTitle {
   Here using @media queries, we are specifying when the display
   has a width less than 50em it should collapse the 5/10 columns 
   into one stack (hence width: 100%)
-*/
+/
 @media (max-width: 50em) {
 
   .col-7of10 {
@@ -206,3 +255,4 @@ img {
   max-width: 100%;
   border: 1px solid #888888; 
 }
+*/
