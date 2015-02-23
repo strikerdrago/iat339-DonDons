@@ -1,10 +1,3 @@
-
-/* 
-  This tutorial draws from "Don't Overthink Grids" available at
-  http://css-tricks.com/dont-overthink-it-grids/
-*/
-
-
 /*
   With this selector, we are specifying that all objects use
   the border-box model (not the content-box model)
@@ -21,65 +14,17 @@
   specifying if the class of an item starts with
   'col-', then we should apply the styling listed
 */
-[class^='col-'] {
+[class^='col-R'] {
   float: left;
   padding: 0; 
-  text-align: center; /* center the content in this block */
+  text-align: left; /* center the content in this block */
 }
 
-
-/*
-  Here we are defining our 50% wide column (for a 10 col grid)
-
-.col-8of10 {
-  width: 80%;
-}
-
-/*
-  Here using @media queries, we are specifying when the display
-  has a width less than 50em it should collapse the 5/10 columns 
-  into one stack (hence width: 100%)
-
-@media (max-width: 50em) {
-
-  .col-8of10 {
-    width: 100%;
-  }
-
-}
-
-
-
-
-
-/*
-  Here we are defining our 20% wide column (for 2 columns of a 10 col grid)
-
-.col-2of10 {
-  width: 20%;
-}
-
-/*
-  Using further @media queries, we specify that at a width of
-  less than 30em it should collapse the 2/10 columns into one stack
-
-@media (max-width: 30em) {
-
-  .col-2of10 {
-    width: 100%;
-  }
-
-}
 
 /*
   Much like last week, we are clearing the floating items so
   that our 'grid' structure can be stacked on others
 */
-.grid:after {
-  content: "";
-  display: block;
-  clear: both;
-}
 
 article {
   padding: 0em 2em; 
@@ -94,11 +39,7 @@ figure {
 /* the side titles */
 
 
-p {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  color: #5C3D00;
-}
+
 
 p.sideNote {
   font-size: .9em;
@@ -111,7 +52,7 @@ h3.sideTitle {
 
 
 /*
-  Here we are defining our 80% wide column (for a 10 col grid)
+  Here we are defining our 75% wide column (for a 10 col grid)
 */
 .col-8of10 {
   width: 75%;
@@ -151,29 +92,10 @@ h3.sideTitle {
 }
 
 /*
-  Here we are defining our 80% wide column (for a 10 col grid)
-*/
-.col-empty {
-  width: 75%;
-}
-
-/*
-  Here using @media queries, we are specifying when the display
-  has a width less than 50em it should collapse the 5/10 columns 
-  into one stack (hence width: 100%)
-*/
-@media (max-width: 50em) {
-
-  .col-empty {
-    width: 0%;
-  }
-
-}
-
-
 img {
   height: auto; 
   width: auto;
   max-width: 100%;
   border: 1px solid #888888; 
 }
+*/
