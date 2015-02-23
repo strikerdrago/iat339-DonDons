@@ -24,16 +24,8 @@
 [class^='col-'] {
 	float: left;
 	padding: 12px 1.5em; 
-	/*text-align: center;  center the content in this block */
+	width: 8.33%; /*default width of 1 column*/ 
 }
-
-/*version with things align to the right*/
-[class^='colR-'] {
-  float: left;
-  padding: 0; 
-  /*text-align: left;  center the content in this block */
-}
-
 
 article {
   /*padding: 0em 2em; */
@@ -55,9 +47,26 @@ h3.sideTitle {
 }
 
 
-/*
-  Here we are defining our 80% wide column (for a 10 col grid)
-*/
+/* new fancy 12 columns*/
+
+.col-1 { 
+	/*100 divided by 12*/
+	width: 8.33%; 
+}
+.col-2 { width: 16.66%; }
+.col-3 { width: 25%; }
+.col-4 { width: 33.33%; }
+.col-5 { width: 41.66%; }
+.col-6 { width: 50%; }
+.col-7 { width: 58.33%; }
+.col-8 { width: 66.66%; }
+.col-9 { width: 75%; }
+.col-10 { width: 83.33%; }
+.col-11 { width: 91.66%; }
+.col-12 { width: 100%; }
+
+
+/*cld columns*/
 .col-8of10 {
 	width: 80%;
 }
