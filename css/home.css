@@ -87,11 +87,17 @@ h3.sideTitle {
 
 }
 
-/*
-img {
-  height: auto; 
-  width: auto;
-  max-width: 100%;
+
+img.mainEvent {
+  height: 200; 
+  max-width: 90%;
   border: 1px solid #888888; 
 }
-*/
+
+@media (max-width: 50em) {
+
+  img.mainEvent {
+    width: 100%;
+  }
+
+}
