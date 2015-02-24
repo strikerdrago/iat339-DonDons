@@ -24,7 +24,8 @@
 [class^='col-'] {
 	float: left;
 	padding: 1px 1.5em; 
-	width: 8.33%; /*default width of 1 column*/ 
+	width: 8.33%; /*default width of 1 column*/
+	position: relative; 
 }
 
 article {
@@ -68,6 +69,24 @@ h3.sideTitle {
 .thumbnail >figure >img{
 	height:auto;
 	width: 100%;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    /* float: left; */
+    background-color: aqua;
+    position: absolute; 
+    /*align-content: top;*/
+    /* vertical-align: top; */
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity .5s ease-out;
+}
+
+.overlay:hover{
+    opacity: 0.5;
 }
 
 
@@ -152,6 +171,10 @@ img.mainEvent {
     width: 100%;
 	}
 
+	.col-9 {
+    width: 100%;
+	}
+
 	textarea {
     width: 100%;
  	}
@@ -177,4 +200,10 @@ img {
   max-width: 100%;
   border: 1px solid #888888; 
 	float:left;
+}
+
+.navitem {
+	padding:0;
+	font-size:0;
+	margin: 0;
 }

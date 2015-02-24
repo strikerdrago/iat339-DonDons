@@ -15,7 +15,7 @@ body {
 section {
   margin: 1em 0;
   padding: 0.5em 0;
-  border-top: 1px solid #333;
+  /*border-top: 1px solid #333;*/
 }
 section h3 {
   margin-bottom: 0;
@@ -84,6 +84,7 @@ textarea.form{
     width: 80%; 
     height: 10em;
     padding: 1em;
+    margin-top: 1em;
 }
 
 textarea.form:focus, textarea.form:hover{
@@ -291,14 +292,14 @@ ul.quicklinks li {
 /*LOGO responsive*/
 
 img.logo {
-  height: 300px; 
-  width: 300px;
+  height: 200px; 
+  width: 200px;
   border: 1px solid #888888; 
 }
 
-@media (max-width: 30em) {
+@media (max-width: 40em) {
 
   img.logo {
     width: 100%;
-    height: 250px;
+    /*height: 250px;*/
   }
