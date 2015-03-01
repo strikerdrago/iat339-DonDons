@@ -43,7 +43,29 @@ p.sideNote {
   font-size: .9em;
 }
 
+li.sideNote {
+  font-size: .9em;
+  color: #5C3D00
+}
+
 h3.sideTitle {
+  font-family: 'Arvo', cursive;
+  color: rgb(219,111,80);
+  margin-bottom: -1em;
+}
+
+h3.address {
+  font-family: 'Arvo', cursive;
+  color: rgb(219,111,80);
+}
+
+h4.addressLocation {
+  font-family: 'Arvo', cursive;
+  color: rgb(219,111,80);
+  margin-bottom: -1em;
+}
+
+h6.date {
   font-family: 'Arvo', cursive;
   color: rgb(219,111,80);
 }
@@ -66,10 +88,9 @@ h3.sideTitle {
 .col-11 { width: 91.66%; }
 .col-12 { width: 100%; }
 
-/*new code to add logo* to navbar*/
-.col-T { width: 20%;}
-.col-R { width: 80%;}
-.col-13 { width: 20%;}
+/*new code to add logo* to navbar that divides
+the 12 columns into 5 equal column (2.4 times 5 = 12) the*/
+.col-2o4 { width: 20%;}
 
 h3 {
 	font-family: 'Arvo', cursive;
@@ -114,6 +135,7 @@ nav .col-2 {
 }
 
 
+
 .grid:after {
 	content: "";
 	display: block;
@@ -121,8 +143,8 @@ nav .col-2 {
 }
 
 img.mainEvent {
-	height: 200; 
-	max-width: 90%;
+	max-width: 100%;
+	height: auto; 
 	border: 1px solid #888888; 
 }
 
@@ -176,6 +198,8 @@ img.mainEvent {
 
 	img.mainEvent {
 	width: 100%;
+	height: auto;
+	margin: 0;
 	}
 
 	.col-img  {
@@ -202,10 +226,18 @@ img.mainEvent {
 		padding: 0 12px;
 	}
 
-	.navlogo {
-	height: 550px;
-	width: 875px;
+	.col-2o4{
+		padding: 0 12px;
+		width:100%;
+	}
+
+	.col-6{
+		width: 100%;
+	}
+
 }
+	
+
 }
 
 @media (max-width: 25em) {
@@ -218,13 +250,24 @@ img.mainEvent {
 }
 
 
-img {
+img.logo {
 /*	height: auto; 
   width: auto;
   max-width: 100%; 
   border: 1px solid #888888; */ 
-	float:left;
+    max-width: 875px;
+    width: 100%;
+    height: auto;
+    float: right;
+
 }
+
+img.mainEvent {
+	width: 90%;
+	display: block;
+    /*margin-left: auto;*/
+    margin-right: auto;
+	}
 
 .navitem {
 	padding:0;
@@ -232,3 +275,11 @@ img {
 	margin: 0;
 }
 
+.flavour {
+	display: block;
+    /*margin-left: auto;*/
+	}
+
+.type {
+	display: block;
+}
