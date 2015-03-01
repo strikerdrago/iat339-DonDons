@@ -303,3 +303,7 @@ img.logo {
     width: 100%;
     /*height: 250px;*/
   }
+
+.copyright {
+    font-weight: 700;
+  }
