@@ -192,7 +192,7 @@ nav a.navigation {
   font-size: 1.25rem;
   text-decoration: none;
 
-  margin: 0.25em; 
+  margin: 7em 0 0 0; 
 
   padding: 0.25em 0.45em; 
 
@@ -292,9 +292,9 @@ ul.quicklinks li {
 /*LOGO responsive*/
 
 img.logo {
-  height: 200px; 
-  width: 200px;
-  border: 1px solid #888888; 
+  height: 175px; 
+  width: 288px;
+  /*border: 1px solid #888888;*/ 
 }
 
 @media (max-width: 40em) {
