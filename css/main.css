@@ -10,6 +10,7 @@ TA: Justin Ma
 body {
   font-family: 'Open Sans', sans-serif;
   padding: 2rem;
+  background-color: rgb(246,246,226);
 }
 
 section {
@@ -180,7 +181,7 @@ figcaption {
   font-weight: 700;
   bottom: .25em;
   left: .50em;
-  color: black;
+  color: white;
 }
 
 img.big {

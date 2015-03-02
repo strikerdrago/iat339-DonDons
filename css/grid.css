@@ -23,8 +23,8 @@
 */
 [class^='col-'] {
 	float: left;
-	/* removed to adjust Logo
-	padding: 1px 1.5em;  */ 
+	 /*removed to adj: ;ust Logo*/
+	padding: 0 10px;   
 	width: 8.33%; /*default width of 1 column*/
 	position: relative; 
 }
@@ -97,12 +97,12 @@ h3 {
   	color: rgb(219,111,80);
 	margin-top: 0;
 }
-/*
-.thumbnail >figure >img{
-	height:auto;
+
+.thumbnail>figure>img{
+	height: auto;
 	width: 100%;
 }
-*/
+
 .thumbnail{
 	margin-bottom: 1em;
 }
@@ -111,7 +111,7 @@ h3 {
     width: 100%;
     height: 100%;
     /* float: left; */
-    background-color: rgb(121,214,214);
+    /*background-color: rgb(121,214,214);*/
     position: absolute; 
     /*align-content: top;*/
     /* vertical-align: top; */
@@ -119,10 +119,12 @@ h3 {
     left: 0;
     opacity: 0;
     transition: opacity .5s ease-out;
+
 }
 
 .overlay:hover{
-    opacity: 0.5;
+	opacity: 1;
+    background-color: rgba(121,214,214,0.5);
 }
 
 
@@ -130,9 +132,9 @@ h3 {
 	nav specific 25% layouter
 	[TODO] Change to 3of12 when finished editing grid layout
 */
-nav .col-2 {
+/*nav .col-2 {
 	width: 25%;
-}
+}*/
 
 
 
@@ -259,7 +261,7 @@ img.logo {
     width: 100%;
     height: auto;
     float: right;
-
+	vertical-align: bottom;
 }
 
 img.mainEvent {
