@@ -14,7 +14,7 @@ body {
 }
 
 section {
-  margin: 1em 0;
+  margin: 0 0 1em;
   padding: 0.5em 0;
   /*border-top: 1px solid #333;*/
 }
@@ -63,7 +63,8 @@ form {
 label.form { 
     font-family: 'Arvo', serif;
     font-weight: 400;
-    color: rgb(76,118,163);
+    /*color: rgb(76,118,163);*/
+    color: rgb(6,127,180);
     font-size: .9em;
     display: block;
 
@@ -73,6 +74,7 @@ input.form {
     font-family: 'Open Sans';
     background-color: #FEFEFE;
     padding: 0.4em;
+    width:100%;
 }
 
 input.form:focus, input.form:hover { 
@@ -97,7 +99,8 @@ input.form-submit {
   display: block;
   padding: 0.5em 0.75em;
   color: white;
-  background-color: rgb(76,118,163);
+  /*background-color: rgb(76,118,163);*/
+  background-color: rgb(6,127,180);
   border-radius: 0.25em;
   text-decoration: none;
   -webkit-transition: background-color 0.2s ease-out;
@@ -106,6 +109,7 @@ input.form-submit {
 }
 input.form-submit:focus, input.form-submit:hover { 
     background-color: rgb(121,214,214);
+
   color: #5C3D00;
 }
 input.form-submit:active{ 
@@ -196,7 +200,8 @@ nav a.navigation {
   font-family: 'Arvo', serif;
   display: inline-block;
   color: white;
-  background-color: rgb(76,118,163);
+  /*background-color: rgb(76,118,163); old colour*/
+  background-color: rgb(6,127,180);
   font-size: 1.25rem;
   text-decoration: none;
 
