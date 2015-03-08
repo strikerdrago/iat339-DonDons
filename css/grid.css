@@ -219,10 +219,10 @@ img.logo {
 }
 
 .col-2.navitem {
-	float: right;
+	/*float: right;*/
 }
 
-@media (max-width: 60em) {
+@media (max-width: 65em) {
 	img.logo {
 		width:200px;
 	}
