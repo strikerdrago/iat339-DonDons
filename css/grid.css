@@ -50,24 +50,33 @@ li.sideNote {
 
 h3.sideTitle {
   font-family: 'Arvo', cursive;
-  color: rgb(219,111,80);
+  color: rgb(236,27,36);
   margin-bottom: -1em;
 }
 
 h3.address {
   font-family: 'Arvo', cursive;
-  color: rgb(219,111,80);
+  color: rgb(236,27,36);
+}
+
+h4.orderLabels {
+  font-family: 'Arvo', cursive;
+  color: rgb(236,27,36);
+  -webkit-margin-before: -.33em;
+  -webkit-margin-after: .33em;
+   -webkit-margin-start: 0px;
+   -webkit-margin-end: 0px;
 }
 
 h4.addressLocation {
   font-family: 'Arvo', cursive;
-  color: rgb(219,111,80);
+  color: rgb(236,27,36);
   margin-bottom: -1em;
 }
 
 h6.date {
   font-family: 'Arvo', cursive;
-  color: rgb(219,111,80);
+  color: rgb(236,27,36);
 }
 
 
@@ -94,7 +103,7 @@ the 12 columns into 5 equal column (2.4 times 5 = 12) the*/
 
 h3 {
 	font-family: 'Arvo', cursive;
-  	color: rgb(219,111,80);
+  	color: rgb(236,27,36);
 	margin-top: 0;
 }
 
