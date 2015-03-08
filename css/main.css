@@ -211,6 +211,9 @@ nav a.navigation {
 
   -webkit-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;
+
+  -webkit-transition: margin 0.4s ease-out;
+  transition: margin 0.4s ease-out;
 }
 
 nav a.navigation:first-of-type {
@@ -224,19 +227,19 @@ nav a.navigation:active, nav a.navigation:hover {
 
 /*orderHere*/
 nav a.orderHere {
-  font-family: 'Arvo', serif;
+/*  font-family: 'Arvo', serif;
   display: inline-block;
-  color: white;
+  color: white;*/
   background-color: rgb(219,111,80);
-  font-size: 1.25rem;
-  text-decoration: none;
+/*  font-size: 1.25rem;
+  text-decoration: none;*/
 
-  margin: 7em 0 0 0; 
+  /*margin: 7em 0 0 0; */
 
-  padding: 0.25em 0.45em; 
+  /*padding: 0.25em 0.45em; */
 
-  -webkit-transition: background-color 0.5s ease-out;
-  transition: background-color 0.5s ease-out;
+/*  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;*/
 }
 
 nav a.orderHere:first-of-type {
