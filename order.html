@@ -17,7 +17,7 @@
     -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Order</title>
+    <title>Don Don's Frozen Delights - Order</title>
 
     <link href="css/normalize.css" rel="stylesheet" >
 
@@ -105,8 +105,8 @@
 
                 <figure>
                   <img  alt="Product Image" src="img/vanilla-stick.jpg">
-                  <figcaption>Vanilla</figcaption>
-                  <a href="#"><div class="overlay"></div></a>
+                  <a href="product_vanilla.html"><div class="overlay">
+                  </div></a>
                 </figure>
                 <!--  -->
               </div>
@@ -130,17 +130,16 @@
             </div> 
             <hr>
 
-            <div class="grid"> <!--Total -->
+            <div class="grid"  id="total"> <!--Total -->
               <div class="col-3">
-                <p></p>
+                &nbsp;
               </div>
-
-              <div class="col-6">
+              <div class="col-7">
                 <h4 class="orderLabelsSide">Total with shipping</h4>
               </div>
 
               <div class="col-2">
-                <p id="total">$35.00</p>
+                <p>$35.00</p>
               </div>
             </div> 
 
@@ -151,7 +150,7 @@
           <div class="grid"> <!-- Starting a different grid -->
             <div class="col-12">
 
-            <form method="post" class="form" action="#">
+            <form method="post" class="form" action="order_confirmation.html">
 
               <div class="grid">
                 <div class="col-6">
@@ -223,8 +222,8 @@
               </div>
 
               <div class="grid">
-                <div class="col-10">
-                  <textarea class="form" id="form-comment" placeholder="Please place your comment here"></textarea>
+                <div class="col-12">
+                  <textarea class="form" id="form-comment" placeholder="Place any questions of concerns here"></textarea>
                 </div>
               </div>
 

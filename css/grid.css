@@ -95,11 +95,6 @@ h6.date {
   color: rgb(236,27,36);
 }
 
-p#total{
-	font-weight:bold;
-	margin: .25em 0 .5em 0;
-}
-
 h3 {
 	font-family: 'Arvo', cursive;
   	color: rgb(236,27,36);
@@ -127,9 +122,18 @@ h6 {
 	margin-bottom: 1em;
 }
 
+.thumbnail .button{
+	width: 100%;
+}
+
 .productimage>figure>img{
 	height: auto;
 	width: 100%;
+}
+
+#total>div>p{
+	font-weight:bold;
+	margin: .25em 0 .5em 0;
 }
 
 .overlay{
@@ -152,6 +156,10 @@ h6 {
     background-color: rgba(121,214,214,0.5);
 }
 
+.grid {
+	margin: .5em 0;
+}
+
 .grid:after {
 	content: "";
 	display: block;
@@ -163,31 +171,13 @@ img.mainEvent {
 	height: auto; 
 	border: 1px solid #888888; 
 
-
-	/*width: 90%;*/
 	display: block;
-    /*margin-left: auto;*/
     margin-right: auto;
-    /*background-image: url("../img/buko-salad_small.jpg") !important;*/
-
-
 }
 
 .paying{
 	margin-top: 1em;
 }
-
-input.gallon { 
-    font-family: 'Open Sans';
-    background-color: #FEFEFE;
-    padding: 0em;
-    width:100%;
-}
-
-.Total{
-	font-weight: 2em;
-}
-
 
 img.logo {
 /*	height: auto; 
@@ -239,6 +229,11 @@ img.logo {
 		height: auto;
 		width: 33%;
 	}
+	
+	.productvariety .thumbnail{
+		width: 16.66%;
+	}
+
 	h4.orderLabelsTop{
 		visibility: hidden;
 		opacity: 0;
@@ -270,15 +265,13 @@ img.logo {
 	}
 }
 
-@media (max-width: 55em) {
+@media (max-width: 60em) {
 
 	.thumbnail{
 		height: auto;
 		width: 50%;
 	}
-}
 
-@media (max-width: 60em) {
 	.cart{
 		width: 70%;
 
@@ -340,10 +333,20 @@ img.logo {
 		width: 33%;
 	}
 
-
+	
 	.thumbnail{
 		height: auto;
 		width: 50%;
+	}
+
+	.productvariety .thumbnail{
+		width: 33%;
+	}
+
+	.productimage{
+		float: none;
+		margin: 1em auto;
+		width: 80%;
 	}
 
 	textarea.form {
@@ -354,10 +357,6 @@ img.logo {
 		padding: 0 12px;
 	}
 
-	.col-2o4{
-		padding: 0 12px;
-		width:100%;
-	}
 
 	img.logo {
 		width: 60%;
