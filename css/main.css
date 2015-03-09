@@ -7,6 +7,8 @@ Instructor: Andrew Hawryshkewich
 TA: Justin Ma
 */
 
+@import url(http://fonts.googleapis.com/css?family=Arvo:400,700|Open+Sans:400,300,600,700);
+
 body {
   font-family: 'Open Sans', sans-serif;
   padding: .5rem 2rem;
@@ -194,12 +196,6 @@ img.image{
   /*height: 25%;*/
 }
 
-figure.gallery {
-  /*display: inline;*/
-  position: relative;
-  margin: 2em 2em 2em 2em; 
-}
-
 figure{
   display: block;
   position: relative;
@@ -256,7 +252,7 @@ nav a.navigation:active, nav a.navigation:hover {
 
 nav a.selected {
   background-color: rgb(236,27,36);
-  font-weight: bold;
+  /*font-weight: bold;*/
 }
 
 

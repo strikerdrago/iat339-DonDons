@@ -225,11 +225,6 @@ img.logo {
 		display: none;
 	}
 
-	.thumbnail{
-		height: auto;
-		width: 33%;
-	}
-	
 	.productvariety .thumbnail{
 		width: 16.66%;
 	}

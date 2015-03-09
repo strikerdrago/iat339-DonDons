@@ -38,31 +38,31 @@
 
 
     <section id="keygroup">
-      <!--This is where LOGO AND NAV ARE LOCATED-->
+    <!--This is where LOGO AND NAV ARE LOCATED-->
       <nav class="grid">
-       <div class="col-3">
-        <img class="logo" alt="Don Don's Frozen Delights" src="img/Logo.png">
-      </div>
-      <div class="col-1">
-        &nbsp;
-        <!-- <a class="navigation" href="index.html">Home</a> -->
-      </div>
-      <div class="col-2 navitem">
-        <a class="navigation" href="index.html">Home</a>
-      </div>
-      <div class="col-2 navitem">
-        <a class="navigation" href="products.html">Products</a>
-      </div>
-      <div class="col-2 navitem special">
-        <a class="navigation orderHere" href="order.html">Order</a>
-      </div>
-      <div class="col-2 navitem">
-        <a class="navigation" href="contact.html">Contact</a>
-      </div>
-
-    </nav>
-
-  </section>    
+        <div class="col-3 logo">
+          <a href="index.html">
+            <img class="logo" alt="Don Don's Frozen Delights" src="img/Logo.png">
+          </a>
+        </div>
+        <div class="col-1">
+          &nbsp;
+        </div>
+        <div class="col-2 navitem">
+          <a class="navigation" href="index.html">Home</a>
+        </div>
+        <div class="col-2 navitem">
+          <a class="navigation" href="products.html">Products</a>
+        </div>
+        <div class="col-2 navitem">
+          <a class="navigation" href="contact.html">Contact</a>
+        </div>
+        <div class="col-2 navitem">
+          <a class="navigation selected" href="order.html">Order</a>
+        </div>
+      </nav>
+      
+    </section>    
 
 
   <!--MOST RECENT UPDATE!-->
@@ -150,93 +150,95 @@
           <div class="grid"> <!-- Starting a different grid -->
             <div class="col-12">
 
-            <form method="post" class="form" action="order_confirmation.html">
+              <form method="post" class="form" action="order_confirmation.html">
 
-              <div class="grid">
-                <div class="col-6">
-                  <label class="form" for="form-name">First Name:</label>
-                  <input class="form" type="text" id="form-name" placeholder="John">
-                </div>
-                <div class="col-6">
-                  <label class="form" for="form-name">Last Name:</label>
-                  <input class="form" type="text" id="form-name" placeholder="Doe">
-                </div>
-              </div>
-              
-              <div class="grid">
-                <div class="col-7">
-                  <label class="form" for="form-name">Address</label>
-                  <input class="form" type="text" id="form-name" placeholder="Mary Street">
-                </div>
-              </div>
-
-              <div class="grid">
-                <div class="col-7">
-                  <label class="form" for="form-name">Phone</label>
-                  <input class="form" type="text" id="form-name" placeholder="xxx-xxx-xxxx">
-                </div>
-              </div>
-
-              <div class="grid">
-                <div class="col-7">
-                  <label class="form" for="form-name">Email</label>
-                  <input class="form" type="text" id="form-name" placeholder="Johnny@somewhere.com">
-                </div>
-
-              </div>
-
-              <div class="grid">
-
-
-                <div class="col-4 paying">
-                  <div class="col-10 payment">
-                    <input type="radio" name="pay" value="payMethod" checked>
-                    <figure>
-                      <img width="100%" alt="Payment1" src="img/paypal.png">
-                      <figcaption></figcaption>
-                    </figure>
+                <div class="grid">
+                  <div class="col-6">
+                    <label class="form" for="form-name">First Name:</label>
+                    <input class="form" type="text" id="form-name" placeholder="John">
+                  </div>
+                  <div class="col-6">
+                    <label class="form" for="form-name">Last Name:</label>
+                    <input class="form" type="text" id="form-name" placeholder="Doe">
                   </div>
                 </div>
 
-                <div class="col-4 paying">
-
-                  <div class="col-10 payment">
-                    <input type="radio" name="pay" value="payMethod">
-                    <figure>
-                      <img width="100%" alt="Payment2" src="img/MasterCard.png">
-                      <figcaption></figcaption>
-                    </figure>
+                <div class="grid">
+                  <div class="col-7">
+                    <label class="form" for="form-name">Address</label>
+                    <input class="form" type="text" id="form-name" placeholder="Mary Street">
                   </div>
                 </div>
 
-                <div class="col-4 paying">
-
-                  <div class="col-10 payment">
-                    <input type="radio" name="pay" value="payMethod">
-                    <figure>
-                      <img width="100%" alt="Payment3" src="img/Visa.png">
-                      <figcaption></figcaption>
-                    </figure>
+                <div class="grid">
+                  <div class="col-7">
+                    <label class="form" for="form-name">Phone</label>
+                    <input class="form" type="text" id="form-name" placeholder="xxx-xxx-xxxx">
                   </div>
                 </div>
-              </div>
 
-              <div class="grid">
-                <div class="col-12">
-                  <textarea class="form" id="form-comment" placeholder="Place any questions of concerns here"></textarea>
+                <div class="grid">
+                  <div class="col-7">
+                    <label class="form" for="form-name">Email</label>
+                    <input class="form" type="text" id="form-name" placeholder="Johnny@somewhere.com">
+                  </div>
+
                 </div>
-              </div>
+
+                <div class="grid">
 
 
-              <input class="form-submit" type="submit" value="Process Order" href="order_confirmation.html">
-            </div> <!--col 12-->
+                  <div class="col-4 paying">
+                    <div class="col-12 payment">
+                      <input type="radio" name="pay" value="payMethod" checked>
+                      <figure>
+                        <img width="100%" alt="Payment1" src="img/paypal.png">
+                        <figcaption></figcaption>
+                      </figure>
+                    </div>
+                  </div>
 
-          </form>
+                  <div class="col-4 paying">
+
+                    <div class="col-12 payment">
+                      <input type="radio" name="pay" value="payMethod">
+                      <figure>
+                        <img width="100%" alt="Payment2" src="img/MasterCard.png">
+                        <figcaption></figcaption>
+                      </figure>
+                    </div>
+                  </div>
+
+                  <div class="col-4 paying">
+
+                    <div class="col-12 payment">
+                      <input type="radio" name="pay" value="payMethod">
+                      <figure>
+                        <img width="100%" alt="Payment3" src="img/Visa.png">
+                        <figcaption></figcaption>
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="grid">
+                  <div class="col-12">
+                    <textarea class="form" id="form-comment" placeholder="Place any questions of concerns here"></textarea>
+                  </div>
+                </div>
+
+
+                <input class="form-submit" type="submit" value="Process Order" href="order_confirmation.html">
+              </div> <!--col 12-->
+
+            </form>
+          </div>
         </div>
-      </div>
-    </div> <!--RIGHT COLUMN-->
-  </div> <!--ALL-->
+      </div> <!--RIGHT COLUMN-->
+    </div> <!--ALL-->
+    <section id="footer">
+        <p class="copyright">Copyright 2015 Don Don's Frozen Delights. All rights reserved.</p>
+    </section>
 
-
-</body>
-</html>
+  </body>
+  </html>

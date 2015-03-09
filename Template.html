@@ -1,12 +1,12 @@
 <!--BY: Zen Henri T. dela Cruz 301122155
-AND Glen Cheng-->
-<!--P02: Process-->
-<!--IAT 339 Webdesign-->
-<!--Instructor: Andrew Hawryshkewich-->
-<!--TA: Justin Ma-->
+  AND Glen Cheng-->
+  <!--P02: Process-->
+  <!--IAT 339 Webdesign-->
+  <!--Instructor: Andrew Hawryshkewich-->
+  <!--TA: Justin Ma-->
 
-<!DOCTYPE html>
-<html>
+  <!DOCTYPE html>
+  <html>
   <head>
     <meta charset="utf-8">
 
@@ -31,117 +31,117 @@ AND Glen Cheng-->
 
 
   <body>
-    <h1>Style Guide Template</h1>
-    <p>A template you can use to start building out your own style guides with.</p>
-    <nav>
-      Go to:
-      <a href="#buttons">Buttons</a>
-      <a href="#form">Form</a>
-      <a href="#textual">Textual</a>
-      <a href="#image">Image</a>
-      <a href="#keygroup">Key Groupings</a>
-    </nav>
-    <!-- Try to ensure that each element has its own portion of the page -->
+    <div class="container">
+      <h1>Style Guide Template</h1>
+      <p>A template you can use to start building out your own style guides with.</p>
+      <nav>
+        Go to:
+        <a href="#buttons">Buttons</a>
+        <a href="#form">Form</a>
+        <a href="#textual">Textual</a>
+        <a href="#image">Image</a>
+        <a href="#keygroup">Key Groupings</a>
+      </nav>
 
-    <!--BUTTON element-->
+      <!--BUTTON element-->
 
-    <section id="buttons">
-      <h2>Default Button Style</h2>
-      <h3>CSS selector:</h3>
-      <p>'a.button'</p>
-      <h3>Sample code:</h3>
-      <code>&lt;a href="#" class="button"&gt;DEFAULT BUTTON&lt;/a&gt;</code>
-      <h3>Rendered element:</h3>
-      <a class="button" href="#">DEFAULT BUTTON</a>
-      <a class="button" href="#">DEFAULT BUTTON</a>
-    </section>
+      <section id="buttons">
+        <h2>Default Button Style</h2>
+        <h3>CSS selector:</h3>
+        <p>'a.button'</p>
+        <h3>Sample code:</h3>
+        <code>&lt;a href="#" class="button"&gt;DEFAULT BUTTON&lt;/a&gt;</code>
+        <h3>Rendered element:</h3>
+        <a class="button" href="#">DEFAULT BUTTON</a>
+        <a class="button" href="#">DEFAULT BUTTON</a>
+      </section>
 
-    <!-- FORM element-->
+      <!-- FORM element-->
 
-    <section id="form">
-      <h2>Default Form Style</h2>
-      <h3>CSS selector:</h3>
-      <p>'label.form'</p>
-      <p>'input.form'</p>
-      <p>'textarea.form'</p>
-      <p>'input.form-submit'</p>
+      <section id="form">
+        <h2>Default Form Style</h2>
+        <h3>CSS selector:</h3>
+        <p>'label.form'</p>
+        <p>'input.form'</p>
+        <p>'textarea.form'</p>
+        <p>'input.form-submit'</p>
 
-      <h3>Sample code:</h3>
-    
-      <code>&lt;div class="input-wrapper"&gt;&lt;div class="grid"&gt;&lt;div class="col-12"&gt;&lt;form method="post" class="form" action="#"&gt;&lt;div class="grid"&gt;&lt;div class="col-6"&gt;&lt;label class="form" for="form-name"&gt;First Name:&lt;/label &gt;&lt;input class="form" type="text" id="form-name" placeholder="John"&gt;&lt;/div&gt;&lt;div class="col-6"&gt;&lt;label class="form" for="form-name"&gt;&lt;Last Name:&gt;&lt;/label&gt;&lt;input class="form" type="text" id="form-name" placeholder="Doe"&gt;&lt;/div&gt;&lt;div class="input-wrapper"&gt;&lt;textarea class="form" id="form-comment" placeholder="Please place your comment here"&gt;&lt;/textarea&gt;&lt;/div&gt;&lt;input class="form-submit" type="submit" value="Submit"&gt;
-      &lt;/form&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+        <h3>Sample code:</h3>
+
+        <code>&lt;div class="input-wrapper"&gt;&lt;div class="grid"&gt;&lt;div class="col-12"&gt;&lt;form method="post" class="form" action="#"&gt;&lt;div class="grid"&gt;&lt;div class="col-6"&gt;&lt;label class="form" for="form-name"&gt;First Name:&lt;/label &gt;&lt;input class="form" type="text" id="form-name" placeholder="John"&gt;&lt;/div&gt;&lt;div class="col-6"&gt;&lt;label class="form" for="form-name"&gt;&lt;Last Name:&gt;&lt;/label&gt;&lt;input class="form" type="text" id="form-name" placeholder="Doe"&gt;&lt;/div&gt;&lt;div class="input-wrapper"&gt;&lt;textarea class="form" id="form-comment" placeholder="Please place your comment here"&gt;&lt;/textarea&gt;&lt;/div&gt;&lt;input class="form-submit" type="submit" value="Submit"&gt;
+          &lt;/form&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
 
 
 
-        &lt;div class="input-wrapper"&gt;&lt;label class="form" for="form-name"&gt;Default Form:&lt;/label&gt;&lt;input class="form" type="text" id="form-name" placeholder="Default Form"&gt;&lt;/div&gt;
+          &lt;div class="input-wrapper"&gt;&lt;label class="form" for="form-name"&gt;Default Form:&lt;/label&gt;&lt;input class="form" type="text" id="form-name" placeholder="Default Form"&gt;&lt;/div&gt;
 
-        &lt;div class="input-wrapper"&gt;&lt;textarea class="form" id="form-comment" placeholder="Default Form"&gt;Default Form&lt;/textarea&gt;&lt;/div&gt;&lt;input class="form-submit" type="submit" value="DEFAULT FORM"&gt;
-      </code>
+          &lt;div class="input-wrapper"&gt;&lt;textarea class="form" id="form-comment" placeholder="Default Form"&gt;Default Form&lt;/textarea&gt;&lt;/div&gt;&lt;input class="form-submit" type="submit" value="DEFAULT FORM"&gt;
+        </code>
 
-      <h3>Rendered element:</h3>
+        <h3>Rendered element:</h3>
 
-      
-          <div class="input-wrapper">
-            <div class="grid"> <!-- Starting a different grid -->
-             <div class="col-12">
 
-                 <form method="post" class="form" action="#">
-              
-                <div class="grid">
-                  <div class="col-6">
-                    <label class="form" for="form-name">First Name:</label>
-                    <input class="form" type="text" id="form-name" placeholder="John">
-                  </div>
-                  <div class="col-6">
-                    <label class="form" for="form-name">Last Name:</label>
-                    <input class="form" type="text" id="form-name" placeholder="Doe">
-                  </div>
+        <div class="input-wrapper">
+          <div class="grid"> <!-- Starting a different grid -->
+           <div class="col-12">
+
+             <form method="post" class="form" action="#">
+
+              <div class="grid">
+                <div class="col-6">
+                  <label class="form" for="form-name">First Name:</label>
+                  <input class="form" type="text" id="form-name" placeholder="John">
                 </div>
-
-                <div class="input-wrapper">
-                 <textarea class="form" id="form-comment" placeholder="Please place your comment here"></textarea>
-               </div>
-
-                 <input class="form-submit" type="submit" value="Submit">
-                  </form>
+                <div class="col-6">
+                  <label class="form" for="form-name">Last Name:</label>
+                  <input class="form" type="text" id="form-name" placeholder="Doe">
+                </div>
               </div>
-            </div>
-          </div>
 
-       
-    </section>
+              <div class="input-wrapper">
+               <textarea class="form" id="form-comment" placeholder="Please place your comment here"></textarea>
+             </div>
 
-    <!-- TEXTUAL element-->
+             <input class="form-submit" type="submit" value="Submit">
+           </form>
+         </div>
+       </div>
+     </div>
 
-    <section id="textual">
-      <h2>Default Textual Style</h2>
-      <h3>CSS selector:</h3>
-      <p>'h2.title'</p>
-      <p>'h3.address'</p>
-      <p>'h4.addressLocation'</p>
-      <p>'h6.date'</p>
-      <p>'p.textual'</p>
-      <p>'a.important'</p>
-      <h3>Sample code:</h3>
-        <code>&lt;h2 class="title"&gt;Default Textual&lt;/h2&gt;
-          &lt;h3 class="address"&gt;Default Textual&lt;/h3&gt;
-          &lt;h4 class="addressLocation"&gt;Default Textual&lt;/h4&gt;
-          &lt;h6 class="date"&gt;Default Textual&lt;/h6&gt;
-          &lt;p class="textual"&gt;Default Textual, Etiam sit amet sem vehicula, efficitur eros faucibus, dignissim odio. &lt;a class="important" href="#"&gt;Duis diam sem, malesuada&lt;/a&gt; non augue quis, viverra lacinia turpis. Morbi in vehicula eros, quis vestibulum libero.&lt;/p&gt;</code>
+
+   </section>
+
+   <!-- TEXTUAL element-->
+
+   <section id="textual">
+    <h2>Default Textual Style</h2>
+    <h3>CSS selector:</h3>
+    <p>'h2.title'</p>
+    <p>'h3.address'</p>
+    <p>'h4.addressLocation'</p>
+    <p>'h6.date'</p>
+    <p>'p.textual'</p>
+    <p>'a.important'</p>
+    <h3>Sample code:</h3>
+    <code>&lt;h2 class="title"&gt;Default Textual&lt;/h2&gt;
+      &lt;h3 class="address"&gt;Default Textual&lt;/h3&gt;
+      &lt;h4 class="addressLocation"&gt;Default Textual&lt;/h4&gt;
+      &lt;h6 class="date"&gt;Default Textual&lt;/h6&gt;
+      &lt;p class="textual"&gt;Default Textual, Etiam sit amet sem vehicula, efficitur eros faucibus, dignissim odio. &lt;a class="important" href="#"&gt;Duis diam sem, malesuada&lt;/a&gt; non augue quis, viverra lacinia turpis. Morbi in vehicula eros, quis vestibulum libero.&lt;/p&gt;</code>
 
       <h3>Rendered element:</h3>
 
-        <h2 class="title">Default Textual</h2>
+      <h2 class="title">Header 2 Title</h2>
 
-        <h3>Default Textual</h3>
+      <h3>Header 3</h3>
 
-        <h4>Default Textual</h4>
+      <h4>Header 4</h4>
 
-        <h6>Default Textual</h6>
+      <h6>Header 6</h6>
 
-        <p class="textual">Default Textual, Etiam sit amet sem vehicula, efficitur eros faucibus, dignissim odio. <a class="important" href="#">Duis diam sem, malesuada</a> non augue quis, viverra lacinia turpis. Morbi in vehicula eros, quis vestibulum libero.</p>
+      <p class="textual">Etiam sit amet sem vehicula, efficitur eros faucibus, dignissim odio. <a class="important" href="#">Duis diam sem, malesuada</a> non augue quis, viverra lacinia turpis. Morbi in vehicula eros, quis vestibulum libero.</p>
 
-        <p class="textual">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel orci tristique nisi feugiat mollis non id nisl. Etiam pretium turpis a semper mollis. Nulla sit amet elementum sem, mollis finibus risus. Ut volutpat nibh scelerisque nulla auctor, vel pellentesque eros ornare. Vivamus feugiat est a enim sodales, lobortis suscipit tellus dapibus. Quisque nulla purus, auctor et laoreet ac, molestie at turpis. Pellentesque sollicitudin metus at tortor tempor, congue venenatis tortor vestibulum. In erat sem, interdum et volutpat id, vehicula eget magna. Suspendisse sed sodales arcu. Praesent vestibulum cursus interdum. Mauris feugiat, urna in venenatis blandit, lectus metus fermentum turpis, ac convallis nibh est auctor augue. Pellentesque et sagittis leo, in faucibus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <p class="textual">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel orci tristique nisi feugiat mollis non id nisl. Etiam pretium turpis a semper mollis. Nulla sit amet elementum sem, mollis finibus risus. Ut volutpat nibh scelerisque nulla auctor, vel pellentesque eros ornare. Vivamus feugiat est a enim sodales, lobortis suscipit tellus dapibus. Quisque nulla purus, auctor et laoreet ac, molestie at turpis. Pellentesque sollicitudin metus at tortor tempor, congue venenatis tortor vestibulum. In erat sem, interdum et volutpat id, vehicula eget magna. Suspendisse sed sodales arcu. Praesent vestibulum cursus interdum. Mauris feugiat, urna in venenatis blandit, lectus metus fermentum turpis, ac convallis nibh est auctor augue. Pellentesque et sagittis leo, in faucibus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
     </section>
 
@@ -150,94 +150,120 @@ AND Glen Cheng-->
     <section id="image">
       <h2>Default Image Style</h2>
       <h3>CSS selector:</h3>
-      <p>'img.big'</p>
-      <p>'img.image'</p>
-      <p>'figure.gallery'</p>
       <p>'figcaption'</p>
+      <p>'mainEvent'</p>
       <h3>Sample code:</h3>
-        <code>&lt;figure class="intro"&gt;&lt;img class="big" src="img/demoBigImage.jpg" alt="Ice Cream Cup"&gt;&lt;/figure&gt;&lt;figure class="gallery"&gt;&lt;img class="image" src="img/icecream.jpg" alt="Ice Cream Cup"&gt;&lt;figcaption&gt;Chocolate Ube&lt;/figcaption&gt;&lt;/figure&gt;</code>
+      <code>&lt;figure class="intro"&gt;&lt;img class="big" src="img/demoBigImage.jpg" alt="Ice Cream Cup"&gt;&lt;/figure&gt;&lt;figure class="gallery"&gt;&lt;img class="image" src="img/icecream.jpg" alt="Ice Cream Cup"&gt;&lt;figcaption&gt;Chocolate Ube&lt;/figcaption&gt;&lt;/figure&gt;</code>
 
-        
+
 
       <h3>Rendered element:</h3>
-    
-      <figure class="intro">
-      <img class="big" src="img/demoBigImage.jpg" alt="Ice Cream Cup">
-      </figure>
-      <div class="grid">
-        <div class="col-3of10">
-          <figure class="gallery">
-            <img class="image" src="img/icecream.jpg" alt="Ice Cream Cup">
-            <figcaption>Chocolate Ube</figcaption>
-          </figure>
+      <picture>
+        <source class="mainEvent" media="(min-width: 40em)" srcset="img/buko-salad_big.jpg 1x">
+          <source 
+          srcset="img/buko-salad_small.jpg 1x"> 
+
+          <img class="mainEvent"
+          src="img/buko-salad_big.jpg" 
+          alt="Buko Salad Special banner">     
+        </picture>
+        <div class="grid">
+          <div class="col-2 thumbnail">
+            <figure>
+              <img width="300" height="300" alt="Product Image" src="img/sundae-pandan.jpg">
+              <a href="product_vanilla.html"><div class="overlay">
+                <figcaption>Pandan Vanilla</figcaption>
+              </div></a>
+
+            </figure>
+          </div>
+
+          <div class="col-2 thumbnail">
+            <figure>
+              <img width="300" height="300" alt="Product Image" src="img/sundae-strawberry.jpg">
+              <a href="#"><div class="overlay">
+                <figcaption>Strawberry Vanilla</figcaption>
+              </div></a>
+
+            </figure>
+          </div>
+
+          <div class="col-2 thumbnail">
+            <figure>
+              <img width="300" height="300" alt="Product Image" src="img/sundae-chocolate.jpg">
+              <a href="#"><div class="overlay">
+                <figcaption>Chocolate Vanilla</figcaption>
+              </div></a>
+
+            </figure>
+          </div>
+
+          <div class="col-2 thumbnail">
+            <figure>
+              <img width="300" height="300" alt="Product Image" src="img/sundae-ube.jpg">
+              <a href="#"><div class="overlay">
+                <figcaption>Vanilla</figcaption>
+              </div></a>
+
+            </figure>
+          </div>
         </div>
+      </section>
 
-        <div class="col-3of10">
-          <figure class="gallery">
-            <img class="image" src="img/icecream.jpg" alt="Ice Cream Cup">
-            <figcaption>Ube Macapuno</figcaption>
-          </figure>
-        </div>
+      <!-- KEY GROUPINGS element-->
 
-        <div class="col-3of10">
-          <figure class="gallery">
-            <img class="image" src="img/icecream.jpg" alt="Ice Cream Cup">
-            <figcaption>Rocky Road</figcaption>
-          </figure>
-        </div>
-      </div>
+      <section id="keygroup">
+        <h2>Default Key Grouping Style</h2>
+        <h3>CSS selector:</h3>
+        <p>'a.navigation'</p>
+        <p>'a.navigation selected'</p>
+        <h3>Sample code:</h3>
+        <!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">         <span style="color: #007700">&lt;div</span> <span style="color: #0000CC">class=</span><span style="background-color: #fff0f0">&quot;grid&quot;</span><span style="color: #007700">&gt;</span>
+        <span style="color: #007700">&lt;nav</span> <span style="color: #0000CC">class=</span><span style="background-color: #fff0f0">&quot;col-3&quot;</span><span style="color: #007700">&gt;</span>
+        <span style="color: #007700">&lt;a</span> <span style="color: #0000CC">class=</span><span style="background-color: #fff0f0">&quot;navigation selected&quot;</span> <span style="color: #0000CC">href=</span><span style="background-color: #fff0f0">&quot;#&quot;</span><span style="color: #007700">&gt;</span>Home<span style="color: #007700">&lt;/a&gt;</span>
+        <span style="color: #007700">&lt;/nav&gt;</span>
+        <span style="color: #007700">&lt;nav</span> <span style="color: #0000CC">class=</span><span style="background-color: #fff0f0">&quot;col-3&quot;</span><span style="color: #007700">&gt;</span>
+        <span style="color: #007700">&lt;a</span> <span style="color: #0000CC">class=</span><span style="background-color: #fff0f0">&quot;navigation&quot;</span> <span style="color: #0000CC">href=</span><span style="background-color: #fff0f0">&quot;#&quot;</span><span style="color: #007700">&gt;</span>Products<span style="color: #007700">&lt;/a&gt;</span>
+        <span style="color: #007700">&lt;/nav&gt;</span>
+        <span style="color: #007700">&lt;nav</span> <span style="color: #0000CC">class=</span><span style="background-color: #fff0f0">&quot;col-3&quot;</span><span style="color: #007700">&gt;</span>
+        <span style="color: #007700">&lt;a</span> <span style="color: #0000CC">class=</span><span style="background-color: #fff0f0">&quot;navigation&quot;</span> <span style="color: #0000CC">href=</span><span style="background-color: #fff0f0">&quot;#&quot;</span><span style="color: #007700">&gt;</span>Order<span style="color: #007700">&lt;/a&gt;</span>
+        <span style="color: #007700">&lt;/nav&gt;</span>
+        <span style="color: #007700">&lt;nav</span> <span style="color: #0000CC">class=</span><span style="background-color: #fff0f0">&quot;col-3&quot;</span><span style="color: #007700">&gt;</span>
+        <span style="color: #007700">&lt;a</span> <span style="color: #0000CC">class=</span><span style="background-color: #fff0f0">&quot;navigation&quot;</span> <span style="color: #0000CC">href=</span><span style="background-color: #fff0f0">&quot;#&quot;</span><span style="color: #007700">&gt;</span>Contact<span style="color: #007700">&lt;/a&gt;</span>
+        <span style="color: #007700">&lt;/nav&gt;</span>
+        <span style="color: #007700">&lt;/div&gt;</span>
+      </pre></div>
 
-    </section>
 
-    <!-- KEY GROUPINGS element-->
-
-    <section id="keygroup">
-      <h2>Default Key Grouping Style</h2>
-      <h3>CSS selector:</h3>
-      <p>'a.navigation'</p>
-      <h3>Sample code:</h3>
-        <code>&lt;a class="navigation" href="#"&gt;Home&lt;/a&gt;</code>
 
       <h3>Rendered element:</h3>
-
-
       <!-- 
         added the class 'grid' to our nav tag
         to allow it to act as a grid of it's own
       -->
-        <nav class="grid">
-
-          <!-- 
-          Here we are actually using our 10-column grid to 
-          position navigation across the top accordingly
-          -->  
-          <div class="col-2of10">
-            <a class="navigation" href="#">Home</a>
-          </div>
-          <div class="col-2of10">
-            <a class="navigation" href="#">Products</a>
-          </div>
-          <!--temporary removed
-          <div class="col-2of10">
-            <a class="navigation" href="#"></a>
-          </div>
-           -->
-          <div class="col-2of10">
-            <a class="navigation" href="#">Order</a>
-          </div>
-          <div class="col-2of10">
-            <a class="navigation" href="#">Contact</a>
-          </div>
+      <div class="grid">
+        <nav class="col-3">
+          <a class="navigation selected" href="#">Home</a>
         </nav>
+        <nav class="col-3">
+          <a class="navigation" href="#">Products</a>
+        </nav>
+        <nav class="col-3">
+          <a class="navigation" href="#">Order</a>
+        </nav>
+        <nav class="col-3">
+          <a class="navigation" href="#">Contact</a>
+        </nav>
+      </div>
 
 
     </section>
 
-        <section id="colours">
+    <section id="colours">
       <h2>Colours</h2>
 
       <p>
-        The colour palette are light saturated colours.
+        The colour palette are lightly saturated colours, based on the brand colours.
       </p>
 
       <div class="colorpalette lightblue">rgb(69,114,221)</div>
@@ -247,10 +273,14 @@ AND Glen Cheng-->
       <div class="colorpalette lightred">rgb(239,99,105)</div>
 
       <p>
-        Background is white.
+        Background is a cream colour.
       </p>
 
     </section>
-
-  </body>
+    
+    <section id="footer">
+      <p class="copyright">It's a footer! Copyright 2015 Don Don's Frozen Delights. All rights reserved.</p>
+    </section>
+  </div>
+</body>
 </html>
