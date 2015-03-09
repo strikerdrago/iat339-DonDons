@@ -390,16 +390,3 @@ img.logo {
 
 }
 
-
-img.logo {
-/*	height: auto; 
-  width: auto;
-  max-width: 100%; 
-  border: 1px solid #888888; */ 
-    max-width: 875px;
-    width: 100%;
-    height: auto;
-    float: right;
-	vertical-align: bottom;
-}
-
