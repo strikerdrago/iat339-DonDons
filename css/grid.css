@@ -74,8 +74,6 @@ h4.orderLabelsSide {
   -webkit-margin-after: .33em;
    -webkit-margin-start: 0px;
    -webkit-margin-end: 0px;
-   visibility: hidden;
-	opacity: 0;
 }
 
 h4.addressLocation {
@@ -108,6 +106,18 @@ h6.date {
 .col-12 { width: 100%; }
 
 h3 {
+	font-family: 'Arvo', cursive;
+  	color: rgb(236,27,36);
+	margin-top: 0;
+}
+
+h4 {
+	font-family: 'Arvo', cursive;
+  	color: rgb(236,27,36);
+	margin-top: 0;
+}
+
+h6 {
 	font-family: 'Arvo', cursive;
   	color: rgb(236,27,36);
 	margin-top: 0;
@@ -158,6 +168,7 @@ img.mainEvent {
 	height: auto; 
 	border: 1px solid #888888; 
 
+
 	/*width: 90%;*/
 	display: block;
     /*margin-left: auto;*/
@@ -165,6 +176,21 @@ img.mainEvent {
     /*background-image: url("../img/buko-salad_small.jpg") !important;*/
 
 
+}
+
+.paying{
+	margin-top: 1em;
+}
+
+input.gallon { 
+    font-family: 'Open Sans';
+    background-color: #FEFEFE;
+    padding: 0em;
+    width:100%;
+}
+
+.Total{
+	font-weight: 2em;
 }
 
 /*
@@ -182,7 +208,7 @@ img.mainEvent {
 		opacity: 0;
 	}
 	h4.orderLabelsSide{
-		visibility: hidden ;
+		visibility: visible; ;
 		opacity: 1;
 		margin-bottom: -.8em; 
 		margin-top:-.5em;
@@ -197,6 +223,8 @@ img.mainEvent {
 		margin-bottom: 0em; 
 		margin-top:1em;
 	}
+
+
 }
 
 @media (max-width: 55em) {
@@ -341,6 +369,7 @@ img.logo {
 		width: 100%;
 	}
 
+
 	body {
 		padding: 0.25rem .5rem;
 	}
@@ -365,6 +394,13 @@ img.logo {
 		margin-bottom: 0em; 
 		margin-top:1em;
 	}
+	.paying{
+		width: 33.33%;
+	}
+
+	input.gallon {
+		width: 20%;
+	}
 
 }
 
@@ -374,5 +410,23 @@ img.logo {
   	width: 100%;
   }
 	
+  .paying{
+		width: 100%;
+	}
+
+
+}
+
+
+img.logo {
+/*	height: auto; 
+  width: auto;
+  max-width: 100%; 
+  border: 1px solid #888888; */ 
+    max-width: 875px;
+    width: 100%;
+    height: auto;
+    float: right;
+	vertical-align: bottom;
 }
 
