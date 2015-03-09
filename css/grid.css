@@ -36,58 +36,6 @@ figure {
 	margin: 0 auto;
 }
 
-/* the side titles */
-
-p.sideNote {
-  font-size: .9em;
-}
-
-li.sideNote {
-  font-size: .9em;
-  color: #5C3D00
-}
-
-h3.sideTitle {
-  font-family: 'Arvo', cursive;
-  color: rgb(236,27,36);
-  margin-bottom: -1em;
-}
-
-h3.address {
-  font-family: 'Arvo', cursive;
-  color: rgb(236,27,36);
-}
-
-h4.orderLabelsTop {
-  font-family: 'Arvo', cursive;
-  color: rgb(236,27,36);
-  -webkit-margin-before: -.33em;
-  -webkit-margin-after: .33em;
-   -webkit-margin-start: 0px;
-   -webkit-margin-end: 0px;
-}
-
-h4.orderLabelsSide {
-  font-family: 'Arvo', cursive;
-  color: rgb(236,27,36);
-  -webkit-margin-before: -.33em;
-  -webkit-margin-after: .33em;
-   -webkit-margin-start: 0px;
-   -webkit-margin-end: 0px;
-}
-
-h4.addressLocation {
-  font-family: 'Arvo', cursive;
-  color: rgb(236,27,36);
-  margin-bottom: -1em;
-}
-
-h6.date {
-  font-family: 'Arvo', cursive;
-  color: rgb(236,27,36);
-}
-
-
 /* new fancy 12 columns*/
 .col-1 { 
 	/*100 divided by 12*/
@@ -104,6 +52,53 @@ h6.date {
 .col-10 { width: 83.33%; }
 .col-11 { width: 91.66%; }
 .col-12 { width: 100%; }
+
+/* the side titles */
+
+p.sideNote {
+  font-size: .9em;
+}
+
+li.sideNote {
+  font-size: .9em;
+  color: #5C3D00
+}
+
+h3.sideTitle {
+  font-family: 'Arvo', cursive;
+  color: rgb(236,27,36);
+}
+
+h3.address {
+  font-family: 'Arvo', cursive;
+  color: rgb(236,27,36);
+}
+
+h4.orderLabelsTop {
+  font-family: 'Arvo', cursive;
+  color: rgb(236,27,36);
+  margin-bottom: 0;
+}
+
+h4.orderLabelsSide {
+  font-family: 'Arvo', cursive;
+  color: rgb(236,27,36);
+}
+
+h4.addressLocation {
+  font-family: 'Arvo', cursive;
+  color: rgb(236,27,36);
+}
+
+h6.date {
+  font-family: 'Arvo', cursive;
+  color: rgb(236,27,36);
+}
+
+p#total{
+	font-weight:bold;
+	margin: .25em 0 .5em 0;
+}
 
 h3 {
 	font-family: 'Arvo', cursive;
@@ -193,47 +188,6 @@ input.gallon {
 	font-weight: 2em;
 }
 
-/*
-	Using media queries for responsive grid layouts
-*/
-
-@media (max-width: 70em) {
-
-	.thumbnail{
-		height: auto;
-		width: 33%;
-	}
-	h4.orderLabelsTop{
-		visibility: hidden;
-		opacity: 0;
-	}
-	h4.orderLabelsSide{
-		visibility: visible; ;
-		opacity: 1;
-		margin-bottom: -.8em; 
-		margin-top:-.5em;
-	}
-	.cart{
-		width: 50%;
-		margin-bottom: -.8em; 
-		margin-top:-.5em;
-	}
-	.removeFromCart{
-		width: 50%;
-		margin-bottom: 0em; 
-		margin-top:1em;
-	}
-
-
-}
-
-@media (max-width: 55em) {
-
-	.thumbnail{
-		height: auto;
-		width: 50%;
-	}
-}
 
 img.logo {
 /*	height: auto; 
@@ -246,13 +200,6 @@ img.logo {
     float: right;
 	vertical-align: bottom;
 }
-
-
-
-
-
-
-
 
 .navitem {
 	padding:0;
@@ -278,11 +225,42 @@ img.logo {
   	transition: width 0.4s ease-out;
 }
 
-.col-2.navitem {
-	/*float: right;*/
-}
+/*
+	Using media queries for responsive grid layouts
+*/
 
-@media (max-width: 65em) {
+@media (max-width: 70em) {
+	
+	.grid#orderlabels{
+		display: none;
+	}
+
+	.thumbnail{
+		height: auto;
+		width: 33%;
+	}
+	h4.orderLabelsTop{
+		visibility: hidden;
+		opacity: 0;
+	}
+
+	[class^='col-'].cart {
+		width: 50%;
+	}
+	.cart{
+		
+	}
+
+	.cart>p {
+		margin: .2em;
+	}
+
+	.removeFromCart{
+		width: 50%;
+		margin-bottom: 0em; 
+		margin-top:1em;
+	}
+
 	img.logo {
 		width:200px;
 	}
@@ -290,10 +268,51 @@ img.logo {
 	nav a.navigation{
 		margin: 4em 0 0 0;
 	}
+}
+
+@media (max-width: 55em) {
+
+	.thumbnail{
+		height: auto;
+		width: 50%;
+	}
+}
+
+@media (max-width: 60em) {
+	.cart{
+		width: 70%;
+
+	}
+	.removeFromCart{
+		width: 70%;
+		margin-bottom: 0em; 
+		margin-top:1em;
+	}
+	.paying{
+		width: 33.33%;
+	}
+
+	input.gallon {
+		width: 20%;
+	}
+
+	.cart{
+		width: 50%;
+	}
 
 }
 
 @media (max-width: 40em) {
+
+	body {
+		padding: 0.25rem .5rem;
+	}
+
+	img.mainEvent{
+		width: 90%;
+		height: auto;
+		margin: 0 auto;
+	}
 
 	.col-1 {
 		height: 0;
@@ -302,36 +321,29 @@ img.logo {
 	.col-2 {
 		width: 50%;
 	}
-	.col-3 {
-    	width: 100%;
-  	}
-  	.col-5 {
-		width: 100%;
-	}
-	.col-8 {
-    	width: 100%;
-	}
+  	.col-3 { width: 100%; }
+  	.col-4 { width: 100%; }
+  	.col-5 { width: 100%; }
+	.col-6 { width: 100%; }
+	.col-7 { width: 100%; }
+	.col-8 { width: 100%; }
+	.col-9 { width: 100%; }
+	.col-10 { width: 100%; }
+	.col-11 { width: 100%; }
 
 
 	nav .col-2 {
 		width: 100%;
 	}
+	
+	.col-4.paying{
+		width: 33%;
+	}
+
 
 	.thumbnail{
 		height: auto;
 		width: 50%;
-	}
-
-  	.col-7 {
-    width: 100%;
-	}
-
-	.col-9 {
-    width: 100%;
-	}
-
-	.col-10{
-	width: 100%;
 	}
 
 	textarea.form {
@@ -346,11 +358,6 @@ img.logo {
 		padding: 0 12px;
 		width:100%;
 	}
-
-	.col-6{
-		width: 100%;
-	}
-
 
 	img.logo {
 		width: 60%;
@@ -367,39 +374,6 @@ img.logo {
 
 	.contactInfo{
 		width: 100%;
-	}
-
-
-	body {
-		padding: 0.25rem .5rem;
-	}
-
-	img.mainEvent{
-		width: 90%;
-		height: auto;
-		margin: 0 auto;
-		/*background-image: url("../img/buko-salad_small.jpg") !important;*/
-	}
-}
-
-	
-@media (max-width: 60em) {
-	.cart{
-		width: 70%;
-		margin-bottom: -.8em; 
-		margin-top:-.5em;
-	}
-	.removeFromCart{
-		width: 70%;
-		margin-bottom: 0em; 
-		margin-top:1em;
-	}
-	.paying{
-		width: 33.33%;
-	}
-
-	input.gallon {
-		width: 20%;
 	}
 
 }
