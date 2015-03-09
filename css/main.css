@@ -9,7 +9,7 @@ TA: Justin Ma
 
 body {
   font-family: 'Open Sans', sans-serif;
-  padding: 2rem;
+  padding: 1rem 2rem;
   background-color: rgb(246,246,226);
 }
 
@@ -27,6 +27,11 @@ section p {
 section code {
   background-color: #EEE;
   padding: 0.5em 0.75em;
+}
+
+section#footer{
+  border-top: 1px solid #333;
+  clear: both;
 }
 
 /*BUTTON*/
@@ -227,24 +232,9 @@ nav a.navigation:active, nav a.navigation:hover {
 
 /*orderHere*/
 nav a.orderHere {
-/*  font-family: 'Arvo', serif;
-  display: inline-block;
-  color: white;*/
-  background-color: rgb(219,111,80);
-/*  font-size: 1.25rem;
-  text-decoration: none;*/
-
-  /*margin: 7em 0 0 0; */
-
-  /*padding: 0.25em 0.45em; */
-
-/*  -webkit-transition: background-color 0.5s ease-out;
-  transition: background-color 0.5s ease-out;*/
+  background-color: rgb(236,27,36);
 }
 
-nav a.orderHere:first-of-type {
-  margin-left: 0;
-}
 
 nav a.orderHere:active, nav a.orderHere:hover {
   background-color: rgb(163,50,41);
@@ -353,6 +343,24 @@ ul.quicklinks li {
   }
 
 
+}
+
+a {
+  text-decoration: inherit;
+  font-style: inherit;
+  color: inherit;
+}
+
+a:link, a:visited {
+ border:none;
+ text-decoration:underline;
+ font-style:normal;
+ color: rgb(6,127,180);
+}
+
+a:hover {
+ text-decoration: none;
+ color: rgb(236,27,36);
 }
 
 .copyright {

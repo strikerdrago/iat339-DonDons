@@ -137,23 +137,6 @@ h3 {
     background-color: rgba(121,214,214,0.5);
 }
 
-
-/*
-	nav specific 25% layouter
-	[TODO] Change to 3of12 when finished editing grid layout
-*/
-/*nav .col-2 {
-	width: 25%;
-}*/
-
-hr {
-	border: 0;
-	width: 90%;
-	color: #5C3D00;
-	background-color: #5C3D00;
-	height: 1px;
-}
-
 .grid:after {
 	content: "";
 	display: block;
@@ -164,8 +147,15 @@ img.mainEvent {
 	max-width: 100%;
 	height: auto; 
 	border: 1px solid #888888; 
-}
 
+	/*width: 90%;*/
+	display: block;
+    /*margin-left: auto;*/
+    margin-right: auto;
+    background-image: url("../img/buko-salad_small.jpg") !important;
+
+
+}
 
 /*
 	Using media queries for responsive grid layouts
@@ -224,12 +214,7 @@ img.logo {
 
 
 
-img.mainEvent {
-	width: 90%;
-	display: block;
-    /*margin-left: auto;*/
-    margin-right: auto;
-	}
+
 
 .navitem {
 	padding:0;
@@ -275,8 +260,12 @@ img.logo {
 
 @media (max-width: 40em) {
 
+	.col-1 {
+		height: 0;
+	}
+
 	.col-8 {
-    width: 100%;
+    	width: 100%;
 	}
 
   	.col-5 {
@@ -298,12 +287,6 @@ img.logo {
 
 	nav .col-2 {
 		width: 100%;
-	}
-
-	img.mainEvent {
-	width: 100%;
-	height: auto;
-	margin: 0;
 	}
 
 	.col-img  {
@@ -341,7 +324,7 @@ img.logo {
 
 
 	img.logo {
-		width: 50%;
+		width: 60%;
 		float: none;
 	}
 
@@ -350,15 +333,24 @@ img.logo {
 
 	}
 
-	nav a.navigation{
-		margin: .45em 0 0 0;
+	nav a.navigation {
+		margin: .25em 0 0 0;
 	}
 
 	.contactInfo{
 		width: 100%;
 	}
 
-	
+	body {
+		padding: 0.25rem .5rem;
+	}
+
+	img.mainEvent{
+		width: 100%;
+		height: auto;
+		margin: 0;
+		background-image: url("../img/buko-salad_small.jpg") !important;
+	}
 }
 
 	
