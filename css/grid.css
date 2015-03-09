@@ -277,6 +277,10 @@ img.mainEvent {
 		width: 100%;
 	}
 
+	.contactInfo{
+		width: 100%;
+	}
+
 	
 }
 	
@@ -298,6 +302,10 @@ img.mainEvent {
 
   .col-img  {
     width: 100%;
+  }
+
+  .contactInfo{
+  	width: 100%;
   }
 	
 
