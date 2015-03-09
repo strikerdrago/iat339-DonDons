@@ -120,7 +120,7 @@ input.form-submit:active{
 
 h2.title {
   font-family: 'Arvo', cursive;
-  color: rgb(219,111,80);
+  color: rgb(236,27,36);
 }
 
 
@@ -265,44 +265,51 @@ nav a {
   text-align: center;
   padding-top: 10px;
 }
-/*
-.colorpalette.green{
-  background-color: rgb(29,150,85);
+
+/*RED colours*/
+.colorpalette.mainred{
+  background-color: rgb(236,27,36);
 }
 
-.colorpalette.lightgreen{
-  background-color: rgb(225,240,225);
+.colorpalette.darkred{
+  background-color: rgb(109,45,48);
 }
 
-.colorpalette.orange{
-  background-color: rgb(239,67,35);
-}
-
-.colorpalette.grey{
-  background-color: rgb(220,220,220);
-}
-
-.colorpalette.lightbrown{
-  background-color: rgb(178,100,95);
-}
-
-.colorpalette.lightyellow{
-  background-color: rgb(242,255,138);
+.colorpalette.darkred1{
+  background-color: rgb(108,12,17);
 }
 
 .colorpalette.lightred{
-  background-color: rgb(255,98,87);
+  background-color: rgb(239,99,105);
+}
+
+.colorpalette.brightred{
+  background-color: rgb(185,21,28);
+}
+
+/*BLUE colours */
+
+.colorpalette.mainblue{
+  background-color: rgb(45,75,145);
+}
+
+.colorpalette.darkblue{
+  background-color: rgb(29,48,94);
+}
+
+.colorpalette.darkblue1{
+  background-color: rgb(100,118,163);
 }
 
 .colorpalette.lightblue{
-  background-color: rgb(153,178,204);
+  background-color: rgb(69,114,221);
 }
 
-.colorpalette.blue{
-  background-color: rgb(76,118,163);
+.colorpalette.brightblue{
+  background-color: rgb(135,161,221);
 }
 
-*/
+
 .colorpalette.blue{
   background-color: rgb(76,118,163);
 }

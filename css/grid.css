@@ -44,24 +44,44 @@ li.sideNote {
 
 h3.sideTitle {
   font-family: 'Arvo', cursive;
-  color: rgb(219,111,80);
+  color: rgb(236,27,36);
   margin-bottom: -1em;
 }
 
 h3.address {
   font-family: 'Arvo', cursive;
-  color: rgb(219,111,80);
+  color: rgb(236,27,36);
+}
+
+h4.orderLabelsTop {
+  font-family: 'Arvo', cursive;
+  color: rgb(236,27,36);
+  -webkit-margin-before: -.33em;
+  -webkit-margin-after: .33em;
+   -webkit-margin-start: 0px;
+   -webkit-margin-end: 0px;
+}
+
+h4.orderLabelsSide {
+  font-family: 'Arvo', cursive;
+  color: rgb(236,27,36);
+  -webkit-margin-before: -.33em;
+  -webkit-margin-after: .33em;
+   -webkit-margin-start: 0px;
+   -webkit-margin-end: 0px;
+   visibility: hidden;
+	opacity: 0;
 }
 
 h4.addressLocation {
   font-family: 'Arvo', cursive;
-  color: rgb(219,111,80);
+  color: rgb(236,27,36);
   margin-bottom: -1em;
 }
 
 h6.date {
   font-family: 'Arvo', cursive;
-  color: rgb(219,111,80);
+  color: rgb(236,27,36);
 }
 
 
@@ -84,7 +104,7 @@ h6.date {
 
 h3 {
 	font-family: 'Arvo', cursive;
-  	color: rgb(219,111,80);
+  	color: rgb(236,27,36);
 	margin-top: 0;
 }
 
@@ -156,6 +176,26 @@ img.mainEvent {
 	.thumbnail{
 		height: auto;
 		width: 33%;
+	}
+	h4.orderLabelsTop{
+		visibility: hidden;
+		opacity: 0;
+	}
+	h4.orderLabelsSide{
+		visibility: hidden ;
+		opacity: 1;
+		margin-bottom: -.8em; 
+		margin-top:-.5em;
+	}
+	.cart{
+		width: 50%;
+		margin-bottom: -.8em; 
+		margin-top:-.5em;
+	}
+	.removeFromCart{
+		width: 50%;
+		margin-bottom: 0em; 
+		margin-top:1em;
 	}
 }
 
@@ -299,6 +339,7 @@ img.logo {
 		width: 100%;
 	}
 
+
 	img.logo {
 		width: 50%;
 		float: none;
@@ -312,7 +353,26 @@ img.logo {
 	nav a.navigation{
 		margin: .45em 0 0 0;
 	}
+
+	.contactInfo{
+		width: 100%;
+	}
+
 	
+}
+
+	
+@media (max-width: 60em) {
+	.cart{
+		width: 70%;
+		margin-bottom: -.8em; 
+		margin-top:-.5em;
+	}
+	.removeFromCart{
+		width: 70%;
+		margin-bottom: 0em; 
+		margin-top:1em;
+	}
 
 }
 
@@ -320,6 +380,10 @@ img.logo {
 
   .col-img  {
     width: 100%;
+  }
+
+  .contactInfo{
+  	width: 100%;
   }
 	
 
