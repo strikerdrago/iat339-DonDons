@@ -75,8 +75,6 @@ h4.orderLabelsSide {
   -webkit-margin-after: .33em;
    -webkit-margin-start: 0px;
    -webkit-margin-end: 0px;
-   visibility: hidden;
-	opacity: 0;
 }
 
 h4.addressLocation {
@@ -170,6 +168,20 @@ img.mainEvent {
 	border: 1px solid #888888; 
 }
 
+.paying{
+	margin-top: 1em;
+}
+
+input.gallon { 
+    font-family: 'Open Sans';
+    background-color: #FEFEFE;
+    padding: 0em;
+    width:100%;
+}
+
+.Total{
+	font-weight: 2em;
+}
 
 /*
 	Using media queries for responsive grid layouts
@@ -186,7 +198,7 @@ img.mainEvent {
 		opacity: 0;
 	}
 	h4.orderLabelsSide{
-		visibility: hidden ;
+		visibility: visible; ;
 		opacity: 1;
 		margin-bottom: -.8em; 
 		margin-top:-.5em;
@@ -201,6 +213,8 @@ img.mainEvent {
 		margin-bottom: 0em; 
 		margin-top:1em;
 	}
+
+
 }
 
 @media (max-width: 55em) {
@@ -282,6 +296,7 @@ img.mainEvent {
 	}
 
 	
+	
 }
 	
 @media (max-width: 60em) {
@@ -294,6 +309,16 @@ img.mainEvent {
 		width: 70%;
 		margin-bottom: 0em; 
 		margin-top:1em;
+	}
+	.paying{
+		width: 33.33%;
+	}
+
+	input.gallon {
+		width: 20%;
+	}
+	.quantity {
+		width: 33.33%;
 	}
 
 }
@@ -308,6 +333,10 @@ img.mainEvent {
   	width: 100%;
   }
 	
+  .paying{
+		width: 100%;
+	}
+
 
 }
 
