@@ -116,6 +116,18 @@ h3 {
 	margin-top: 0;
 }
 
+h4 {
+	font-family: 'Arvo', cursive;
+  	color: rgb(236,27,36);
+	margin-top: 0;
+}
+
+h6 {
+	font-family: 'Arvo', cursive;
+  	color: rgb(236,27,36);
+	margin-top: 0;
+}
+
 .thumbnail>figure>img{
 	height: auto;
 	width: 100%;

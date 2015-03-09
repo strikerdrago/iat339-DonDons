@@ -68,29 +68,47 @@ AND Glen Cheng-->
 
       <h3>Sample code:</h3>
     
-      <code>&lt;div class="input-wrapper"&gt;&lt;label class="form" for="form-name"&gt;Default Form:&lt;/label&gt;&lt;input class="form" type="text" id="form-name" placeholder="Default Form"&gt;&lt;/div&gt;
+      <code>&lt;div class="input-wrapper"&gt;&lt;div class="grid"&gt;&lt;div class="col-12"&gt;&lt;form method="post" class="form" action="#"&gt;&lt;div class="grid"&gt;&lt;div class="col-6"&gt;&lt;label class="form" for="form-name"&gt;First Name:&lt;/label &gt;&lt;input class="form" type="text" id="form-name" placeholder="John"&gt;&lt;/div&gt;&lt;div class="col-6"&gt;&lt;label class="form" for="form-name"&gt;&lt;Last Name:&gt;&lt;/label&gt;&lt;input class="form" type="text" id="form-name" placeholder="Doe"&gt;&lt;/div&gt;&lt;div class="input-wrapper"&gt;&lt;textarea class="form" id="form-comment" placeholder="Please place your comment here"&gt;&lt;/textarea&gt;&lt;/div&gt;&lt;input class="form-submit" type="submit" value="Submit"&gt;
+      &lt;/form&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+
+
+
+        &lt;div class="input-wrapper"&gt;&lt;label class="form" for="form-name"&gt;Default Form:&lt;/label&gt;&lt;input class="form" type="text" id="form-name" placeholder="Default Form"&gt;&lt;/div&gt;
 
         &lt;div class="input-wrapper"&gt;&lt;textarea class="form" id="form-comment" placeholder="Default Form"&gt;Default Form&lt;/textarea&gt;&lt;/div&gt;&lt;input class="form-submit" type="submit" value="DEFAULT FORM"&gt;
       </code>
 
       <h3>Rendered element:</h3>
 
-        <form method="post" class="form" action="#">
-        
-        
+      
           <div class="input-wrapper">
-            <label class="form" for="form-name">Name:</label>
-            <input class="form" type="text" id="form-name" placeholder="John Smith">
+            <div class="grid"> <!-- Starting a different grid -->
+             <div class="col-12">
+
+                 <form method="post" class="form" action="#">
+              
+                <div class="grid">
+                  <div class="col-6">
+                    <label class="form" for="form-name">First Name:</label>
+                    <input class="form" type="text" id="form-name" placeholder="John">
+                  </div>
+                  <div class="col-6">
+                    <label class="form" for="form-name">Last Name:</label>
+                    <input class="form" type="text" id="form-name" placeholder="Doe">
+                  </div>
+                </div>
+
+                <div class="input-wrapper">
+                 <textarea class="form" id="form-comment" placeholder="Please place your comment here"></textarea>
+               </div>
+
+                 <input class="form-submit" type="submit" value="Submit">
+                  </form>
+              </div>
+            </div>
           </div>
 
-          <div class="input-wrapper">
-            <textarea class="form" id="form-comment" placeholder="Please place your comment here"></textarea>
-       </div>
-
-        <input class="form-submit" type="submit" value="Submit">
-
-
-      </form>
+       
     </section>
 
     <!-- TEXTUAL element-->
@@ -98,15 +116,28 @@ AND Glen Cheng-->
     <section id="textual">
       <h2>Default Textual Style</h2>
       <h3>CSS selector:</h3>
-      <p>'h3.title'</p>
+      <p>'h2.title'</p>
+      <p>'h3.address'</p>
+      <p>'h4.addressLocation'</p>
+      <p>'h6.date'</p>
       <p>'p.textual'</p>
       <p>'a.important'</p>
       <h3>Sample code:</h3>
-        <code>&lt;h2 class="title"&gt;Default Textual&lt;/h2&gt;&lt;p class="textual"&gt;Default Textual, Etiam sit amet sem vehicula, efficitur eros faucibus, dignissim odio. &lt;a class="important" href="#"&gt;Duis diam sem, malesuada&lt;/a&gt; non augue quis, viverra lacinia turpis. Morbi in vehicula eros, quis vestibulum libero.&lt;/p&gt;</code>
+        <code>&lt;h2 class="title"&gt;Default Textual&lt;/h2&gt;
+          &lt;h3 class="address"&gt;Default Textual&lt;/h3&gt;
+          &lt;h4 class="addressLocation"&gt;Default Textual&lt;/h4&gt;
+          &lt;h6 class="date"&gt;Default Textual&lt;/h6&gt;
+          &lt;p class="textual"&gt;Default Textual, Etiam sit amet sem vehicula, efficitur eros faucibus, dignissim odio. &lt;a class="important" href="#"&gt;Duis diam sem, malesuada&lt;/a&gt; non augue quis, viverra lacinia turpis. Morbi in vehicula eros, quis vestibulum libero.&lt;/p&gt;</code>
 
       <h3>Rendered element:</h3>
 
         <h2 class="title">Default Textual</h2>
+
+        <h3>Default Textual</h3>
+
+        <h4>Default Textual</h4>
+
+        <h6>Default Textual</h6>
 
         <p class="textual">Default Textual, Etiam sit amet sem vehicula, efficitur eros faucibus, dignissim odio. <a class="important" href="#">Duis diam sem, malesuada</a> non augue quis, viverra lacinia turpis. Morbi in vehicula eros, quis vestibulum libero.</p>
 
@@ -209,11 +240,11 @@ AND Glen Cheng-->
         The colour palette are light saturated colours.
       </p>
 
-      <div class="colorpalette blue">rgb(76,118,163)</div>
-      <div class="colorpalette darkblue">rgb(18,63,112)</div>
-      <div class="colorpalette lightblue">rgb(121,214,214)</div>
-      <div class="colorpalette lightorange">rgb(219,111,80)</div>
-      <div class="colorpalette lightred">rgb(163,50,41)</div>
+      <div class="colorpalette lightblue">rgb(69,114,221)</div>
+      <div class="colorpalette mainblue">rgb(45,75,145)</div>
+      <div class="colorpalette darkblue">rgb(29,48,94)</div>
+      <div class="colorpalette mainred">rgb(236,27,36)</div>
+      <div class="colorpalette lightred">rgb(239,99,105)</div>
 
       <p>
         Background is white.
