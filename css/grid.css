@@ -1,30 +1,15 @@
 
-
-/*
-	With this selector, we are specifying that all objects use
-	the border-box model (not the content-box model)
-*/
 *, *:after, *:before {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
 
-
-/*
-	Here we are using a 'fancy' css selector that is 
-	specifying if the class of an item starts with
-	'col-', then we should apply the styling listed
-*/
 [class^='col-'] {
 	float: left;
 	padding: 0 10px;   
 	width: 8.33%; /*default width of 1 column*/
 	position: relative; 
-}
-
-article {
-  /*padding: 0em 2em; */
 }
 
 figure {
@@ -53,7 +38,25 @@ figure {
 .col-11 { width: 91.66%; }
 .col-12 { width: 100%; }
 
-/* the side titles */
+/* the side bar title on homepage  */
+
+h3 {
+	font-family: 'Arvo', cursive;
+  	color: rgb(236,27,36);
+	margin-top: 0;
+}
+
+h4 {
+	font-family: 'Arvo', cursive;
+  	color: rgb(236,27,36);
+	margin-top: 0;
+}
+
+h6 {
+	font-family: 'Arvo', cursive;
+  	color: rgb(236,27,36);
+	margin-top: 0;
+}
 
 p.sideNote {
   font-size: .9em;
@@ -95,23 +98,7 @@ h6.date {
   color: rgb(236,27,36);
 }
 
-h3 {
-	font-family: 'Arvo', cursive;
-  	color: rgb(236,27,36);
-	margin-top: 0;
-}
-
-h4 {
-	font-family: 'Arvo', cursive;
-  	color: rgb(236,27,36);
-	margin-top: 0;
-}
-
-h6 {
-	font-family: 'Arvo', cursive;
-  	color: rgb(236,27,36);
-	margin-top: 0;
-}
+/* thumbnails code */
 
 .thumbnail>figure>img{
 	height: auto;
@@ -139,15 +126,10 @@ h6 {
 .overlay{
     width: 100%;
     height: 100%;
-    /* float: left; */
-    /*background-color: rgb(121,214,214);*/
     position: absolute; 
-    /*align-content: top;*/
-    /* vertical-align: top; */
     top: 0;
     left: 0;
     background-color: rgba(121,214,214,0);
-    /*transition: opacity .5s ease-out;*/
 	transition: background-color .5s ease-out;
 }
 
@@ -180,10 +162,6 @@ img.mainEvent {
 }
 
 img.logo {
-/*	height: auto; 
-  width: auto;
-  max-width: 100%; 
-  border: 1px solid #888888; */ 
     max-width: 875px;
     width: 100%;
     height: auto;
@@ -199,8 +177,7 @@ img.logo {
 
 .flavour {
 	display: block;
-    /*margin-left: auto;*/
-	}
+}
 
 .type {
 	display: block;
@@ -215,9 +192,7 @@ img.logo {
   	transition: width 0.4s ease-out;
 }
 
-/*
-	Using media queries for responsive grid layouts
-*/
+/* Using media queries for responsive grid layouts */
 
 @media (max-width: 70em) {
 	
@@ -345,13 +320,9 @@ img.logo {
 	}
 
 	textarea.form {
-    width: 100%;
+    	width: 100%;
  	}
 	
-	.col-2.navitem{
-		padding: 0 12px;
-	}
-
 
 	img.logo {
 		width: 60%;
@@ -379,8 +350,8 @@ img.logo {
   }
 	
   .paying{
-		width: 100%;
-	}
+  	width: 100%;
+  }
 
 
 }
