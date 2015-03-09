@@ -31,6 +31,11 @@ figure {
   margin: 0;
 }
 
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
 /* the side titles */
 
 p.sideNote {
@@ -117,6 +122,11 @@ h3 {
 	margin-bottom: 1em;
 }
 
+.productimage>figure>img{
+	height: auto;
+	width: 100%;
+}
+
 .overlay{
     width: 100%;
     height: 100%;
@@ -127,9 +137,9 @@ h3 {
     /* vertical-align: top; */
     top: 0;
     left: 0;
-    opacity: 0;
-    transition: opacity .5s ease-out;
-
+    background-color: rgba(121,214,214,0);
+    /*transition: opacity .5s ease-out;*/
+	transition: background-color .5s ease-out;
 }
 
 .overlay:hover{
@@ -152,7 +162,7 @@ img.mainEvent {
 	display: block;
     /*margin-left: auto;*/
     margin-right: auto;
-    background-image: url("../img/buko-salad_small.jpg") !important;
+    /*background-image: url("../img/buko-salad_small.jpg") !important;*/
 
 
 }
@@ -231,9 +241,6 @@ img.logo {
 	display: block;
 }
 
-.col-3.logo {
-	width: 25%;
-}
 
 img.logo {
 	width:300px;
@@ -262,21 +269,23 @@ img.logo {
 
 	.col-1 {
 		height: 0;
+		width: 25%;
 	}
-
+	.col-2 {
+		width: 50%;
+	}
+	.col-3 {
+    	width: 100%;
+  	}
+  	.col-5 {
+		width: 100%;
+	}
 	.col-8 {
     	width: 100%;
 	}
 
-  	.col-5 {
-		width: 100%;
-	}
 
-	.col-3 {
-    	width: 100%;
-  	}
-
-	.col-2 {
+	nav .col-2 {
 		width: 100%;
 	}
 
@@ -284,14 +293,6 @@ img.logo {
 		height: auto;
 		width: 50%;
 	}
-
-	nav .col-2 {
-		width: 100%;
-	}
-
-	.col-img  {
-    width: 50%;
-  	}
 
   	.col-7 {
     width: 100%;
@@ -330,7 +331,6 @@ img.logo {
 
 	.col-3.logo {
 		text-align: center;
-
 	}
 
 	nav a.navigation {
@@ -346,10 +346,10 @@ img.logo {
 	}
 
 	img.mainEvent{
-		width: 100%;
+		width: 90%;
 		height: auto;
-		margin: 0;
-		background-image: url("../img/buko-salad_small.jpg") !important;
+		margin: 0 auto;
+		/*background-image: url("../img/buko-salad_small.jpg") !important;*/
 	}
 }
 
@@ -370,14 +370,9 @@ img.logo {
 
 @media (max-width: 25em) {
 
-  .col-img  {
-    width: 100%;
-  }
-
   .contactInfo{
   	width: 100%;
   }
 	
-
 }
 
